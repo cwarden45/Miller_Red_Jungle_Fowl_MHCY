@@ -10,6 +10,66 @@ However, these are not being considered as potentially variable positions in the
 
 *VarScan-Cons (SNPs - Illumina)*: **8 SNPs** (see below)
 
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Position</th>
+      <th align="center">Ref</th>
+	  <th align="center">ALT</th>
+	  <th align="center">Genotype</br>(diploid settings)</th>
+    </tr>
+    <tr>
+	  <td align="center">28350</td>
+      <td align="center">T</td>
+	  <td align="center">G</td>
+	<td align="center"><b>1/1</b></td>
+    </tr>
+    <tr>
+	  <td align="center">30852</td>
+      <td align="center">C</td>
+	  <td align="center">T</td>
+	<td align="center"><b>1/1</b></td>
+    </tr>
+    <tr>
+	  <td align="center">38972</td>
+      <td align="center">C</td>
+	  <td align="center">A</td>
+	<td align="center"><b>1/1</b></td>
+    </tr>
+    <tr>
+	  <td align="center">47393</td>
+      <td align="center">C</td>
+	  <td align="center">T</td>
+	<td align="center"><b>1/1</b></td>
+    </tr>
+    <tr>
+	  <td align="center">49278</td>
+      <td align="center">C</td>
+	  <td align="center">G</td>
+	<td align="center">0/1</td>
+    </tr>
+    <tr>
+	  <td align="center">53471</td>
+      <td align="center">T</td>
+	  <td align="center">G</td>
+	<td align="center"><b>1/1</b></td>
+    </tr>
+    <tr>
+	  <td align="center">215151</td>
+      <td align="center">A</td>
+	  <td align="center">G</td>
+	<td align="center">0/1</td>
+    </tr>
+    <tr>
+	  <td align="center">215216</td>
+      <td align="center">A</td>
+	  <td align="center">G</td>
+	<td align="center">0/1</td>
+    </tr>
+</tbody>
+</table>
+
 *VarScan-Cons (Indels - Illumina)*: **29 indels**
 
 ([please see 190m7-ILLUMINA-varscan.cons.indel.vcf file](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/Other-Assembly_Assessment/190m7-ILLUMINA-varscan.cons.indel.vcf))
