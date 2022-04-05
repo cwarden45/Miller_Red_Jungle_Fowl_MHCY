@@ -41,7 +41,7 @@ This creates the file *combined_splice_junctions-STAR-v4-param9-ADJUSTED_CPM.txt
 
 **5)** Quantify evenness of coverage and generate QC plots for all gene candidates with multiple exons using  `STEP05-STAR_SD_calculations_and_plots-v2.R`.
 
-The QC plots for evenness of coverage can be found within the [SD_Plots]() subfolder.
+The QC plots for evenness of coverage can be found within the [SD_Plots](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/STAR_Splice_Junction_Evidence/SD_Plots) subfolder.
 
 **6)** Define confidence assignments using  `STEP06-create_splice_junction_table_CATEGORY-STAR-v4.R`.
 
