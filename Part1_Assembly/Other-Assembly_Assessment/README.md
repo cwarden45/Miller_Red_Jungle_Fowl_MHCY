@@ -37,7 +37,7 @@ If we are not confident that the reference should be changed (such as mixed resu
 
 *Pilon (Illumina)*: **0 changes**
 
-*VarScan-Cons (SNPs - Illumina)*:
+*VarScan-Cons (SNPs - Illumina)*: **1 SNP** (see below)
 
 <table>
   <tbody>
@@ -59,7 +59,7 @@ If we are not confident that the reference should be changed (such as mixed resu
 
 *VarScan-Cons (Indels - Illumina)*: **0 indels**
 
-*Re-Arranged AC275299.1/J_AA173O01 Public Sequence*:
+*Re-Arranged AC275299.1/J_AA173O01 Public Sequence*: **9 variable sites** (see below)
 
 <table>
   <tbody>
@@ -122,7 +122,7 @@ If using the original sequence, the "unsure" inversion to get the above concorda
 
 *VarScan-Cons (SNPs - PacBio 10x CCS)*: **0 SNPs**
 
-*VarScan-Cons (Indels - PacBio 10x CCS)*:
+*VarScan-Cons (Indels - PacBio 10x CCS)*: **7 indels** (see below)
 
 <table>
   <tbody>
