@@ -90,7 +90,7 @@ For PacBio data, the input files for various analysis were created using `run_ap
       <td align="center">190m7</td>
 	  <td align="center">253,430 bp</td>
 	  <td align="center">14 insertions</td>
-	  <td align="center">8 SNPs</br><i>(5 "homozygous" if diploid)</i></br></br>29 indel</br><i>(11 "homozygous" if diploid)</i></td>
+	    <td align="center"><b>8 SNPs</b></br>(5 "homozygous" if diploid)</br></br>29 indel</br><i>(11 "homozygous" if diploid)</i></td>
 	  <td align="center">1 SNP (0 "homozygous" if diploid)</br>93 indel (0 "homozygous" if diploid)</td>
 	  <td align="center">Not Available</td>
     </tr>
@@ -115,7 +115,7 @@ For PacBio data, the input files for various analysis were created using `run_ap
 	  <td align="Center">Contig3</td>
       <td align="center">34j16</td>
 	  <td align="center">138,921 bp</td>
-	  <td align="center">0 changes<br>(2 libraries)</td>
+	<td align="center"><b>0 changes</b><br>(2 libraries)</td>
 	  <td align="center">0 SNPs(0 "homozygous" if diploid)</br>0 indel (0 "homozygous" if diploid)<br>(2 libraries)</td>
 	  <td align="center">Not Available</td>
 	  <td align="center">0 changes<br>(Sanger Assembly)</td>
