@@ -1,6 +1,6 @@
-## Summary of Results
+# Summary of Results
 
-# 190m7 (MHC-Y Region starts at 106,161 bp for beginning of GGLTR7-int repeat):
+## 190m7 (MHC-Y Region starts at 106,161 bp for beginning of GGLTR7-int repeat):
 
 *Pilon (Illumina)*:
 
@@ -33,7 +33,7 @@ Most regions with possible differences are in the NOR region, which we expect to
 
 If we are not confident that the reference should be changed (such as mixed results), then we provide this as a list of possibly "unsure" positions (rather than changing the main reference).
 
-**173o1 (All MHC-Y)**:
+## 173o1 (All MHCY):
 
 *Pilon (Illumina)*: **0 changes**
 
@@ -118,7 +118,7 @@ If we are not confident that the reference should be changed (such as mixed resu
 
 If using the original sequence, the "unsure" inversion to get the above concordance would be located at **position 181,255-209,114** (instead of position 173,721-216,640) 
 
-**Contig2_58f18 (All MHC-Y)**:
+## Contig2_58f18 (All MHC-Y):
 
 *VarScan-Cons (SNPs - PacBio 10x CCS)*: **0 SNPs**
 
@@ -177,7 +177,7 @@ If using the original sequence, the "unsure" inversion to get the above concorda
 </tbody>
 </table>
 
-**Contig3_34j16 (All MHC-Y)**:
+## Contig3_34j16 (All MHC-Y):
 
 *Pilon (Illumina)*: **0 differences**
 
@@ -185,9 +185,7 @@ If using the original sequence, the "unsure" inversion to get the above concorda
 
 *Sanger Assembly*: **0 differences**
 
-We believe Contig3/34j16 may be the most robust assembly, even though the fraction of possibly variable sites is small for the other assemblies (esepically if you focus on the MHC-Y region, because the NOR region is expected to have additional assembly errors)
-
-## Method Details
+# Method Details
 
 **Step 0:** Index references (with *E. coli* [CP000948](https://www.ncbi.nlm.nih.gov/nuccore/CP000948) added for off-target reads)
 
