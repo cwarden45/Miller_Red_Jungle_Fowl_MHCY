@@ -5,4 +5,4 @@
 
 **Combined_EMBOSS_Cpgplot-22March2022.gff** - raw output from [EMBOSS Cpgplot](https://www.ebi.ac.uk/Tools/seqstats/emboss_cpgplot/), combined using `combine_GTF.sh`.
 
-Each of the 4 contigs was uploaded into the [web interface](https://www.ebi.ac.uk/Tools/seqstats/emboss_cpgplot/) on 3/22/2022.  Within the results, the **Download results in GFF feature format** option was selected to download the 4 separate files to concatinate above.
+For CpG Island prediction, each of the 4 contigs was uploaded into the [EMBOSS Cpgplot web interface](https://www.ebi.ac.uk/Tools/seqstats/emboss_cpgplot/) on 3/22/2022.  Within the results, the **Download results in GFF feature format** option was selected to download the 4 separate files to concatinate above.
