@@ -10,6 +10,7 @@
 
 *VarScan-Cons (SNPs - PacBio 10x CCS)*: 1 SNP (see below)
 
+<table>
   <tbody>
     <tr>
       <th align="center">Position</th>
@@ -38,6 +39,7 @@ If we are not confident that the reference should be changed (such as mixed resu
 
 *VarScan-Cons (SNPs - Illumina)*:
 
+<table>
   <tbody>
     <tr>
       <th align="center">Position</th>
