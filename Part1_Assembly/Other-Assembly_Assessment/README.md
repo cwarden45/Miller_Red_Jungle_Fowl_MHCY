@@ -142,7 +142,7 @@ If using the original sequence, the "unsure" inversion to get the above concorda
 	  <td align="center">13326</td>
       <td align="center">T</td>
 	  <td align="center">TG</td>
-	  <td align="center">1/1</td>
+	  <td align="center"><b>1/1</b></td>
     </tr>
     <tr>
 	  <td align="center">18872</td>
@@ -160,7 +160,7 @@ If using the original sequence, the "unsure" inversion to get the above concorda
 	  <td align="center">18950</td>
       <td align="center">A</td>
 	  <td align="center">AG</td>
-	  <td align="center">1/1</td>
+	<td align="center"><b>1/1</b></td>
     </tr>
     <tr>
 	  <td align="center">46860</td>
