@@ -6,7 +6,7 @@
 
 *VarScan-Cons (SNPs - Illumina)*:
 
-*VarScan-Cons (Indels - Illumina)*: 93 indels (see file)
+*VarScan-Cons (Indels - Illumina)*: 93 indels ([please see 190m7-varscan.cons.indel.vc file](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/Other-Assembly_Assessment/190m7-varscan.cons.indel.vcf))
 
 *VarScan-Cons (SNPs - PacBio 10x CCS)*: 1 SNP (see below)
 
