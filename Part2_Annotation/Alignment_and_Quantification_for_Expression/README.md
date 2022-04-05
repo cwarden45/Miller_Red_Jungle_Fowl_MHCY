@@ -25,7 +25,10 @@ In terms of what is used for the main results, GMAP was used to align NCBI EST a
 
 The query file *AY257165_AY257170-reformat.fasta* is provided in this GitHub directory.
 
-The reference sequence sequence was indexed using `gmap_build` (GMAP, version 2017-05-03, with  the `-c chrM` parameter) 
+The reference sequence sequence was indexed using `gmap_build` (GMAP, version 2017-05-03, with  the `-c chrM` parameter).
+
+Briefly, as an additional option for qualitative visual inspection, ESTs (from NCBI EST (Gallus gallus, 11/28/2016) were aligned to the custom chicken reference using [GMAP](https://pubmed.ncbi.nlm.nih.gov/15728110/) (version 2018-05-11, with parameters `-n 5 --no-chimeras --suboptimal-score=1 --min-identity=0.985 --max-intronlength-middle=2000 --max-intronlength-ends=2000 -t 1`).  All GMAP alignments were sorted (and read groups were added) with [Picard](https://broadinstitute.github.io/picard/) AddOrReplaceReadGroups (version 2.17).  Some additional information can be found within the [Iterations_of_Manual_Annotation - Annotation_Update_Example]() subfolder.
+
 
 **Step 2c)** Align Chickspress RNA-Seq data using TopHat2 with `TopHat_alignment_apollo-FULL.py`
 
