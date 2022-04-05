@@ -1,6 +1,6 @@
 ## Summary of Results
 
-**190m7 (MHC-Y Region starts at 106,161 bp for beginning of GGLTR7-int repeat)**:
+# 190m7 (MHC-Y Region starts at 106,161 bp for beginning of GGLTR7-int repeat):
 
 *Pilon (Illumina)*:
 
