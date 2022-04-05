@@ -108,7 +108,7 @@ For PacBio data, the input files for various analysis were created using `run_ap
 	  <td align="center">148,501 bp</td>
 	  <td align="center"><i>Not Available</i></td>
 	  <td align="center"><i>Not Available</i></td>
-	  <td align="center"><b>0 SNPs</b></br>(0 "homozygous" if diploid)</br></br>7 indel</br>(2 "homozygous" if diploid)</td>
+	  <td align="center"><b>0 SNPs</b></br>(0 "homozygous" if diploid)</br></br><b>7 indel</b></br>(2 "homozygous" if diploid)</td>
 	  <td align="center"><i>Not Available</i></td>
     </tr>
     <tr>
