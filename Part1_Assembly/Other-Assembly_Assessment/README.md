@@ -4,11 +4,11 @@
 
 *Pilon (Illumina)*:
 
-*VarScan-Cons (SNPs - Illumina)*:
+*VarScan-Cons (SNPs - Illumina)*: **8 SNPs** (see below)
 
-*VarScan-Cons (Indels - Illumina)*: **93 indels**
+*VarScan-Cons (Indels - Illumina)*: **29 indels**
 
-([please see 190m7-varscan.cons.indel.vcf file](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/Other-Assembly_Assessment/190m7-varscan.cons.indel.vcf))
+([please see 190m7-ILLUMINA-varscan.cons.indel.vcf file](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/Other-Assembly_Assessment/190m7-ILLUMINA-varscan.cons.indel.vcf))
 
 *VarScan-Cons (SNPs - PacBio 10x CCS)*: **1 SNP** (see below)
 
@@ -29,7 +29,9 @@
 </tbody>
 </table>
 
-*VarScan-Cons (Indels - PacBio 10x CCS)*:
+*VarScan-Cons (Indels - PacBio 10x CCS)*: **93 indels**
+
+([please see 190m7-PACBIO-varscan.cons.indel.vcf file](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/Other-Assembly_Assessment/190m7-PACBIO-varscan.cons.indel.vcf))
 
 Most regions with possible differences are in the NOR region, which we expect to have greater assembly errors.
 
