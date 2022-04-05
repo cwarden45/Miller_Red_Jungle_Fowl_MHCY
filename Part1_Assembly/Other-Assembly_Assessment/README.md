@@ -2,9 +2,7 @@
 
 ## 190m7 (MHCY Region starts at 106,161 bp for beginning of GGLTR7-int LTR/ERV1 repeat):
 
-*Pilon (Illumina)*:
-
-You can see a list of changes in [190m7-ILLUMINA-pilon.changes](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/Other-Assembly_Assessment/190m7-ILLUMINA-pilon.changes).  **However, these are not being considered as potentially variable positions in the [main summary](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly).**
+*Pilon (Illumina)*: You can see a list of changes in [190m7-ILLUMINA-pilon.changes](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/Other-Assembly_Assessment/190m7-ILLUMINA-pilon.changes).  **However, these are not being considered as potentially variable positions in the [main summary](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly).**
 
 *VarScan-Cons (SNPs - Illumina)*: **8 SNPs** (see below)
 
