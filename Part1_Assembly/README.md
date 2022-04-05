@@ -100,7 +100,7 @@ For PacBio data, the input files for various analysis were created using `run_ap
 	  <td align="center">0 changes</td>
 	  <td align="center">1 SNP (0 "homozygous" if diploid)</br>0 indel (0 "homozygous" if diploid)</td>
 	  <td align="center">Not Available</td>
-	  <td align="center">9 variable positions<br>(some indels larger than 1 bp)</br><a href="https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/173o1/173o1_Sanger-plus-J_AA173O01.pileup.xlsx">re-arranged AC275299.1</a></td>
+	  <td align="center">9 variable positions<br>(some indels larger than 1 bp)</br></br>(<a href="https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/173o1/173o1_Sanger-plus-J_AA173O01.pileup.xlsx">re-arranged AC275299.1</a>)</td>
     </tr>
     <tr>
 	  <td align="Center">Contig2</td>
