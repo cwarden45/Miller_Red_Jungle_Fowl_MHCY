@@ -127,4 +127,6 @@ If a PacBio sequencing was run on a smaller library size, then Circular Consensu
 
 The relative differences had the same ranking regardless of the method or technology used, and most potential differences in the 190M assembly were in the NOR region.  However, no homozygous variants were consistent for both the Illumina and PacBio CCS library data.  All methods tested recommended 0 changes to 34j16.
 
+Details related to the table above can be found within [this folder](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/Other-Assembly_Assessment).
+
 In short, we find minimal evidence for improvement in the MHC-Y portion of the BAC clones.
