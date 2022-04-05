@@ -57,7 +57,7 @@ The methodology for the Sanger comparison matches the re-arranged public assembl
 
 **9)** Create supplemental coverage plot using `run_pileup.sh` and `pileup_coverage.R`.
 
-#Optional Steps to Reproduce Figure
+## Optional Steps to Reproduce Figure
 
 Run `run_MUMmer.sh` and `R_MUMmer_Plot-1_BAC_backbone.R`.
 
