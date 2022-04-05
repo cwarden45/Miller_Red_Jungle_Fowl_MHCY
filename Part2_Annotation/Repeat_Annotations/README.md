@@ -3,6 +3,7 @@
 Repeats were annotated with 2 programs:
 
 **a)** [RepeatMasker version 4.0.6](https://www.repeatmasker.org/RepeatMasker/) with chicken RepBase annotations (downloaded 4/6/2017) and [rmblast version 2.2.27](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.2.27/) as the search engine, and parameters `-species chicken -gff`.
+
 **b)** [Tandem Repeat Finder (TRF) version 4.09](https://tandem.bu.edu/trf/trf.download.html) with parameters `2 7  7  80 10 50 50 -d -m`).
 
 The full reference to each assembly was provided, without masking and running analysis in serial.
