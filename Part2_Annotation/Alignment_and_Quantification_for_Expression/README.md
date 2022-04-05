@@ -25,8 +25,12 @@ In terms of what is used for the main results, GMAP was used to align NCBI EST a
 
 The query file *AY257165_AY257170-reformat.fasta* is provided in this GitHub directory.
 
+The reference sequence sequence was indexed using `gmap_build` (GMAP, version 2017-05-03, with  the `-c chrM` parameter) 
+
 **Step 2c)** Align Chickspress RNA-Seq data using TopHat2 with `TopHat_alignment_apollo-FULL.py`
 
 The *PRJNA204941_Male.txt*, *PRJNA204941_Female.txt*, and *4contigs.bed* files are also being provided in this directory.
 
 For visualization, `combined_bams.pl` was used to create a single alignment file for all samples. 
+
+The reference genome was indexed using `bowtie2-build` [18] (Bowtie2, version 2.3.2).
