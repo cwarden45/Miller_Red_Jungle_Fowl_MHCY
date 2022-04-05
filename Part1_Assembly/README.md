@@ -24,17 +24,17 @@
 	  <td align="center">CHORI</br>(EcoRI)</td>
     </tr>
     <tr>
-      <td align="center">190m7</td>
+      <td align="center"><a href="https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/190m7">190m7</a></td>
 	  <td align="center">Canu v1.5 + Arrow v2.3.3</td>
 	  <td align="center">CHORI</br>(EcoRI)</td>
     </tr>
     <tr>
-      <td align="center">173o1</td>
+      <td align="center"><a href="https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/173o1">173o1</a></td>
 	  <td align="center">Canu v2.1 + Arrow v2.3.3</td>
 	  <td align="center">CHORI</br>(EcoRI)</td>
     </tr>
     <tr>
-      <td align="center">19d16</td>
+      <td align="center"><a href="https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/19d16">19d16</a></td>
 	  <td align="center">HGAP3 + (Indirect) Original End Trimming + Arrow v2.3.3</td>
 	  <td align="center">TAMU</br>(EcoRI)</td>
     </tr>
