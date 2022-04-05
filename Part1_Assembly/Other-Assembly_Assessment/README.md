@@ -1,6 +1,6 @@
 # Summary of Results
 
-## 190m7 (MHCY Region starts at 106,161 bp for beginning of GGLTR7-int repeat):
+## 190m7 (MHCY Region starts at 106,161 bp for beginning of GGLTR7-int LTR/ERV1 repeat):
 
 *Pilon (Illumina)*:
 
