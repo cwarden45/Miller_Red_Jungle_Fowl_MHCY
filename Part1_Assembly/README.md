@@ -89,9 +89,9 @@ For PacBio data, the input files for various analysis were created using `run_ap
 	  <td align="center" rowspan="2">Contig1</td>
       <td align="center">190m7</td>
 	  <td align="center">253,430 bp</td>
-	  <td align="center">14 insertions</td>
-	    <td align="center"><b>8 SNPs</b></br>(5 "homozygous" if diploid)</br></br>29 indel</br><i>(11 "homozygous" if diploid)</i></td>
-	  <td align="center">1 SNP (0 "homozygous" if diploid)</br>93 indel (0 "homozygous" if diploid)</td>
+	  <td align="center"><b>14 insertions</b></td>
+	    <td align="center"><b>8 SNPs</b></br>(5 "homozygous" if diploid)</br></br><b>29 indel</b></br>(11 "homozygous" if diploid)</td>
+	  <td align="center"><b>1 SNP</b></br>(0 "homozygous" if diploid)</br></br><b>93 indel</b></br>(0 "homozygous" if diploid)</td>
 	  <td align="center">Not Available</td>
     </tr>
     <tr>
