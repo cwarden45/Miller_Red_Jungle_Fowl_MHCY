@@ -125,7 +125,7 @@ For PacBio data, the input files for various analysis were created using `run_ap
 
 If a PacBio sequencing was run on a smaller library size, then Circular Consensus Sequence (CCS) reads could be generated.  For 190M and 58f18 CCS libraries, 10X CCS reads were then generated using the `ccs` function in the unanimity package (currently available in [this Docker image](https://hub.docker.com/r/cwarden45/general-pacbio/).  The [samtools version1.9](https://github.com/samtools/samtools/releases/tag/1.9) ‘bam2fq’ function was then used to create CCS FASTQ files.
 
-The relative differences had the same ranking regardless of the method or technology used, and **most potential differences in the 190M assembly were in the NOR region**.  However, no homozygous variants were consistent for both the Illumina and PacBio CCS library data.  **All methods tested recommended *0 changes* to 34j16.**
+The relative differences had the same ranking regardless of the method or technology used, and **most potential differences in the 190M assembly were in the *NOR region***.  However, no homozygous variants were consistent for both the Illumina and PacBio CCS library data.  **All methods tested recommended *0 changes* to 34j16.**
 
 Details related to the table above can be found within [this folder](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/Other-Assembly_Assessment).
 
