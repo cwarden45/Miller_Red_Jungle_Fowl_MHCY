@@ -129,4 +129,4 @@ The relative differences had the same ranking regardless of the method or techno
 
 Details related to the table above can be found within [this folder](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/Other-Assembly_Assessment).
 
-In short, we find minimal evidence for improvement in the MHC-Y portion of the BAC clones.
+In short, we find minimal evidence for improvement in the MHCY portion of the BAC clones.
