@@ -40,13 +40,13 @@
     </tr>
     <tr>
 	  <td align="Center">Contig2</td>
-      <td align="center">58f18</td>
+      <td align="center"><a href="https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/Contig2_58f18">58f18</a></td>
 	  <td align="center">HGAP3 + Draft End Trimming + Arrow v2.3.3</td>
 	  <td align="center">TAMU</br>(EcoRI)</td>
     </tr>
     <tr>
 	  <td align="Center">Contig3</td>
-      <td align="center">34j16</td>
+      <td align="center"><a href="https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/Contig3_34j16">34j16</a></td>
 	  <td align="center">HGAP3 + Arrow v2.3.3</td>
 	  <td align="center">TAMU</br>(HindIII)</td>
     </tr>
