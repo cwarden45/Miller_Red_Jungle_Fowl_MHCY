@@ -1,6 +1,6 @@
 # Summary of Results
 
-## 190m7 (MHC-Y Region starts at 106,161 bp for beginning of GGLTR7-int repeat):
+## 190m7 (MHCY Region starts at 106,161 bp for beginning of GGLTR7-int repeat):
 
 *Pilon (Illumina)*:
 
@@ -118,7 +118,7 @@ If we are not confident that the reference should be changed (such as mixed resu
 
 If using the original sequence, the "unsure" inversion to get the above concordance would be located at **position 181,255-209,114** (instead of position 173,721-216,640) 
 
-## Contig2_58f18 (All MHC-Y):
+## Contig2_58f18 (All MHCY):
 
 *VarScan-Cons (SNPs - PacBio 10x CCS)*: **0 SNPs**
 
@@ -177,7 +177,7 @@ If using the original sequence, the "unsure" inversion to get the above concorda
 </tbody>
 </table>
 
-## Contig3_34j16 (All MHC-Y):
+## Contig3_34j16 (All MHCY):
 
 *Pilon (Illumina)*: **0 differences**
 
