@@ -34,3 +34,5 @@ The *PRJNA204941_Male.txt*, *PRJNA204941_Female.txt*, and *4contigs.bed* files a
 For visualization, `combined_bams.pl` was used to create a single alignment file for all samples. 
 
 The reference genome was indexed using `bowtie2-build` [18] (Bowtie2, version 2.3.2).
+
+Briefly, For qualitative visual inspection (but not quantification), we also compared the Chickspress reads with [TopHat2](https://ccb.jhu.edu/software/tophat/index.shtml) (version 2.1.1, with parameters `--max-intron-length 2000 --no-coverage-search --library-type  fr-unstranded`).  Reads that were aligned the given contig sequence were filtered using `samtools view` and then indexed ([samtools](http://samtools.sourceforge.net/), version 1.6).
