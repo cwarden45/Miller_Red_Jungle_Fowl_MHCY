@@ -73,7 +73,7 @@ For PacBio data, the input files for various analysis were created using `run_ap
     <tr>
       <th align="center" colspan="3"></th>
       <th align="center">Pilon</th>
-	  <th align="center" colspan="2">VarScan-Cons(<a href="https://peerj.com/articles/600/">Warden et al. 2014</a></th>
+	  <th align="center" colspan="2">VarScan-Cons(<a href="https://peerj.com/articles/600/">Warden et al. 2014</a>)</th>
 	  <th align="center">One-Sample Pileup</th>
     </tr>
     <tr>
