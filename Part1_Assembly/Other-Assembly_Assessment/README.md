@@ -93,7 +93,7 @@
 
 ([please see 190m7-PACBIO-varscan.cons.indel.vcf file](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/Other-Assembly_Assessment/190m7-PACBIO-varscan.cons.indel.vcf))
 
-Most regions with possible differences are in the NOR region, which we expect to have greater assembly errors.
+**Most regions with possible differences are in the NOR region, which we expect to have greater assembly errors.**
 
 If we are not confident that the reference should be changed (such as mixed results), then we provide this as a list of possibly "unsure" positions (rather than changing the main reference).
 
