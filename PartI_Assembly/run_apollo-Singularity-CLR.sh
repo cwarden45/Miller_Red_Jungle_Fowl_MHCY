@@ -1,0 +1,51 @@
+#!/bin/bash
+#SBATCH -J PBCLR
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=cwarden@coh.org
+#SBATCH -n 16
+#SBATCH -N 1
+#SBATCH --mem=48g
+#SBATCH --time=72:00:00
+#SBATCH --output=PBCLR.log
+
+H5PREFIX=../../Raw_H5_Files/06-16-2016_BAC_samples_14/B02_1/Analysis_Results/m160617_022611_42284_c101019152550000001823228510211640_s1_p0
+UNALIGNEDPREFIX=Intermediate_Files-Singularity/CHORI-261-1o23
+
+#H5PREFIX=../../Raw_H5_Files/06-16-2016_BAC_samples_14/C02_1/Analysis_Results/m160617_074524_42284_c101019152550000001823228510211641_s1_p0
+#UNALIGNEDPREFIX=Intermediate_Files-Singularity/CHORI-261-102b15
+
+#H5PREFIX=../../Raw_H5_Files/2016-05-05_11/B02_1/Analysis_Results/m160506_031808_42284_c100875922550000001823187303261613_s1_X0
+#UNALIGNEDPREFIX=Intermediate_Files-Singularity/CHORI-261-190m7
+
+#H5PREFIX=../../Raw_H5_Files/2016-05-05_11/A02_1/Analysis_Results/m160505_215855_42284_c100875922550000001823187303261612_s1_X0
+#UNALIGNEDPREFIX=Intermediate_Files-Singularity/TAMU032-JF256-RI-58f18-Lib1
+
+#H5PREFIX=../../Raw_H5_Files/2016-05-05_11/E02_1/Analysis_Results/m160506_191554_42284_c100875922550000001823187303261616_s1_X0
+#UNALIGNEDPREFIX=Intermediate_Files-Singularity/TAMU032-JF256-RI-58f18-Lib2
+
+#H5PREFIX=../../Raw_H5_Files/2016-05-05_11/C02_1/Analysis_Results/m160506_083721_42284_c100875922550000001823187303261614_s1_X0
+#UNALIGNEDPREFIX=Intermediate_Files-Singularity/TAMU032-JF256-RI-19d16--TEST
+
+#H5PREFIX=../../Raw_H5_Files/173o1_34j16_25----2016-12-19_25/C02_1/Analysis_Results/m161220_063847_42284_c101034892550000001823247211171621_s1_X0
+#UNALIGNEDPREFIX=Intermediate_Files-Singularity/TAMU033-JF256-H3-34j16--TEST
+
+#H5PREFIX=../../Raw_H5_Files/173o1_34j16_25----2016-12-19_25/B02_1/Analysis_Results/m161220_021746_42284_c101034892550000001823247211171620_s1_X0
+#UNALIGNEDPREFIX=Intermediate_Files-Singularity/CHORI-261-173o1
+
+module load pbbioconda/20200921
+module load SAMtools/1.9-foss-2018b
+module load singularity/3.5.3
+
+MIDFOLDER=mmiller/Seq/BAC_annotation/Subreads/Apollo_Test_Files
+
+#convert raw file format
+BAXH5C1=$H5PREFIX.1.bax.h5
+BAXH5C2=$H5PREFIX.2.bax.h5
+BAXH5C3=$H5PREFIX.3.bax.h5
+#bax2bam -o $UNALIGNEDPREFIX $BAXH5C1 $BAXH5C2 $BAXH5C3
+singularity exec --bind /net/isi-dcnl/ifs/user_data:/mnt/user_data /home/cwarden/.singularity/cache/oci-tmp/720b8dc1d7aacebe8ed585da5de79118647b303643150ac28a93c014fb04d235/general-pacbio_latest.sif /opt/pacbio/bin/bax2bam -o $UNALIGNEDPREFIX $BAXH5C1 $BAXH5C2 $BAXH5C3 
+
+
+
+UNALIGNED=$UNALIGNEDPREFIX.subreads.bam
+SINGUNALIGNED=/mnt/user_data/$MIDFOLDER/$UNALIGNEDPREFIX.subreads.bam
