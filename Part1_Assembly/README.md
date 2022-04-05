@@ -97,18 +97,18 @@ For PacBio data, the input files for various analysis were created using `run_ap
     <tr>
       <td align="center">173o1</td>
 	  <td align="center">221,406 bp</td>
-	  <td align="center">0 changes</td>
-	  <td align="center">1 SNP (0 "homozygous" if diploid)</br>0 indel (0 "homozygous" if diploid)</td>
-	  <td align="center">Not Available</td>
-	  <td align="center">9 variable positions<br>(some indels larger than 1 bp)</br></br>(<a href="https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/173o1/173o1_Sanger-plus-J_AA173O01.pileup.xlsx">re-arranged AC275299.1</a>)</td>
+	  <td align="center"><b>0 changes</b></td>
+	  <td align="center"><b>1 SNP</b></br>(0 "homozygous" if diploid)</br></br>0 indel</br>(0 "homozygous" if diploid)</td>
+	  <td align="center"><i>Not Available</i></td>
+	  <td align="center"><b>9 variable positions</b><br>(some indels larger than 1 bp)</br></br>(<a href="https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part1_Assembly/173o1/173o1_Sanger-plus-J_AA173O01.pileup.xlsx">re-arranged AC275299.1</a>)</td>
     </tr>
     <tr>
 	  <td align="Center">Contig2</td>
       <td align="center">58f18</td>
 	  <td align="center">148,501 bp</td>
-	  <td align="center">Not Available</td>
-	  <td align="center">Not Available</td>
-	  <td align="center">0 SNPs(0 "homozygous" if diploid)</br>7 indel (2 "homozygous" if diploid)</td>
+	  <td align="center"><i>Not Available</i></td>
+	  <td align="center"><i>Not Available</i></td>
+	  <td align="center"><b>0 SNPs</b></br>(0 "homozygous" if diploid)</br></br>7 indel</br>(2 "homozygous" if diploid)</td>
 	  <td align="center"><i>Not Available</i></td>
     </tr>
     <tr>
@@ -118,7 +118,7 @@ For PacBio data, the input files for various analysis were created using `run_ap
 	<td align="center"><b>0 changes</b><br>(2 libraries)</td>
 	  <td align="center"><b>0 SNPs</b><br>(0 "homozygous" if diploid)<br></br><b>0 indel</b><br>(0 "homozygous" if diploid)<br><br><b>(2 libraries)</b></td>
 	  <td align="center"><i>Not Available</i></td>
-	  <td align="center"><b>0 changes</b><br>(Sanger Assembly)</td>
+	  <td align="center"><b>0 changes</b></br>(Sanger Assembly)</td>
     </tr>
 </tbody>
 </table>
