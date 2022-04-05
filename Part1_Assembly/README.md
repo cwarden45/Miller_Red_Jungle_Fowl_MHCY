@@ -19,7 +19,7 @@
 	  <td align="center">CHORI</br>(EcoRI)</td>
     </tr>
     <tr>
-      <td align="center">102b15</td>
+      <td align="center"><a href="https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/102b15">102b15</a></td>
 	  <td align="center">Canu v1.5 + Arrow v2.3.3</td>
 	  <td align="center">CHORI</br>(EcoRI)</td>
     </tr>
