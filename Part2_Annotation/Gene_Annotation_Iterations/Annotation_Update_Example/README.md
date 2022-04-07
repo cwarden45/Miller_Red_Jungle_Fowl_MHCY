@@ -7,7 +7,7 @@ However, the code for the most recent update can be used to try and help explain
 
 **0)** If needed re-name the genes using `STEP00-convert_gene_names.py`.
 
-This particular script partially used the output from the [Iterations_of_Manual_Annotation - gtf-pileup_liftOver]() subfolder (affecting Contig 1).
+This particular script partially used the output from the [Gene_Annotation_Iterations: - gtf-pileup_liftOver](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/Gene_Annotation_Iterations/gtf-pileup_liftOver) subfolder (affecting Contig 1).
 
 **1)** Run `STEP01-extract_named_v10.py` (for each of the 4 contigs, commenting out different parts of the code).
 
@@ -15,7 +15,7 @@ This creates an intermediate file that helps describe the genes as well as check
 
 The cDNA FASTA files for the gene candidates will be used for the BLAST searches in the subsequent steps.
 
-**2)** Run `STEP02-BLAST_named_RefSeq-v4.py` to identify hits to RefSeq genes as well as newly deposited cDNA sequences and separate MHC-Y amplicon sequences ( [AY257165.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257165), [AY257166.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257166), [AY257167.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257167), [AY257168.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257168), [AY257169.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257169, and[AY257170.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257170) ).
+**2)** Run `STEP02-BLAST_named_RefSeq-v4.py` to identify hits to RefSeq genes as well as newly deposited cDNA sequences and separate MHC-Y amplicon sequences ( [AY257165.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257165), [AY257166.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257166), [AY257167.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257167), [AY257168.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257168), [AY257169.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257169, and [AY257170.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257170) ).
 
 Different parts of the code are commented out for each contig.
 
@@ -55,7 +55,7 @@ I believe these sequences were downloaded from [NCBI Nucleotide](https://www.ncb
 
 Different parts of the code are commented out for each contig.
 
-This also creates a table that can potentially be used for the rRNA gene clusters on Contig 1.  *However, the actual table used has some additional manual modifications and separate code, more related to the [repeat annotations]().
+This also creates a table that can potentially be used for the rRNA gene clusters on Contig 1.  *However, the actual table used has some additional manual modifications and separate code, more related to the [repeat annotations](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/Repeat_Annotations).
 
 Previous versions used TopHat2 alignments and QoRTS for the splice junction evidence.  However, we more recently switched to using the [STAR splice junction]() evidence for the Illumina RNA-Seq data.  To avoid confusion, we are not providing those details here.  However, there is a template for a different context [here](https://github.com/cwarden45/RNAseq_templates/tree/master/Splicing_Workflow).
 
