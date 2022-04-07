@@ -8,14 +8,9 @@ However, to walk through the steps involved:
 
 **2)** Transfer annotations using `gtf-pileup_liftOver-v2.py`.
 
-The `shift` value will change depending upon the assembly sequences.  This will not be constant for all annotation transfers, so alternative versions of the transfer are not provided for the other 3 contigs.
-
-However, to explain the numbers used for the Contig 1 transfer in an assembly with a 5 bp difference:
-
- - 
+The `shift` value will change depending upon the assembly sequences.  This will not be constant for all annotation transfers, so alternative versions of the transfer are not provided for the other 3 contigs.  With only a 5 bp difference, both versions of the assembly started at the same place without any large re-arrangements (most commonly, large deletions in certain revised assemblies).
  
- 
-The folder path includes a subfolder called ** because a number of methods were tested to transfer the annotations.  There is some discussion that can be viewed here.
+The folder path includes a subfolder called *annotation_transfer2* because a number of methods were tested to transfer the annotations.  There is some discussion that can be viewed in the background section on this page.
 
 When there was a more complicated difference between assemblies, the .pileup GTF transfer strategy did not capture everything and some manual work was needed to transfer 100% of gene annotations correctly.  For example, you can see some discussion [here](https://www.biostars.org/p/472543/).  However, as far as we could tell, it was the best overall strategy to start with a semi-automated transfer of annotations.
 
