@@ -122,6 +122,7 @@ For PacBio data, the input files for various analysis were created using `run_ap
     </tr>
 </tbody>
 </table>
+<sup>a</sup>Count comes from earlier version of the assembly.  Please see issue related to more recently created file [here](https://github.com/broadinstitute/pilon/issues/136).
 
 If a PacBio sequencing was run on a smaller library size, then Circular Consensus Sequence (CCS) reads could be generated.  For 190M and 58f18 CCS libraries, 10X CCS reads were then generated using the `ccs` function in the unanimity package (currently available in [this Docker image](https://hub.docker.com/r/cwarden45/general-pacbio/)).  The [samtools version1.9](https://github.com/samtools/samtools/releases/tag/1.9) function `bam2fq` was then used to create CCS FASTQ files.
 
