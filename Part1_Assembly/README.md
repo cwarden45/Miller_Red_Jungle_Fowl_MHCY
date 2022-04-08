@@ -59,7 +59,7 @@ We switched assemblies for the following reasons:
  - 58f18 needed **noticable trimming** (before the BAC backbone), but a re-arrangment was otherwise not needed for finalizing that assembly.
  - 102b15 and 173o1 differences were more subtle, but we thought there was a slight advantage to the Canu assembly (such as having the *right restriction enzyme* at the end of the NOR region in 102b15)
 
-We used representative sequences from the assemblies to define the 2 BAC backbones:
+We used representative sequences from the assemblies to define the [2 BAC backbones](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/discussions/1):
 
  - 10,685 bp for the CHORI vector in 190M (EcoRI)
  - 7,513 bp for the TAMU vector in 19d16 (EcoRI or HindIII)
