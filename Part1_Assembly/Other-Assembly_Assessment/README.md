@@ -4,9 +4,7 @@
 
 *Pilon (Illumina)*: 
 
-We encountered a problem when running Pilon on the most recent version of the assembly, as described [here](https://github.com/broadinstitute/pilon/issues/136).
-
-So, a count that we believe is relatively more accurate is provided, but we unfortuantely do not provide a detailed list for the most recent assembly.
+We encountered a problem when running Pilon on the most recent version of the assembly, as described [here](https://github.com/broadinstitute/pilon/issues/136).  *So, a count that we believe is relatively more accurate is provided, but we unfortuantely do not provide a detailed list for the most recent assembly.*
 
 *VarScan-Cons (SNPs - Illumina)*: **8 SNPs** (see below)
 
