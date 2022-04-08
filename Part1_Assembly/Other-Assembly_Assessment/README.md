@@ -4,7 +4,7 @@
 
 *Pilon (Illumina)*: 
 
-We encountered a problem when running Pilon on the most recent version of the assembly, as described [here](https://github.com/broadinstitute/pilon/issues/136).  *So, a count that we believe is relatively more accurate is provided in the [main table](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/Other-Assembly_Assessment), but we unfortuantely do not provide a detailed list for the most recent assembly.*
+We encountered a problem when running Pilon on the most recent version of the assembly, as described [here](https://github.com/broadinstitute/pilon/issues/136).  *So, a count that we believe is relatively more accurate is provided in the 92nd table on the main subfolder](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly), but we unfortuantely do not provide a detailed list for the most recent assembly.*
 
 *VarScan-Cons (SNPs - Illumina)*: **8 SNPs** (see below)
 
