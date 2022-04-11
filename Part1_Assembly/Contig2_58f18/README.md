@@ -32,7 +32,7 @@ You can find 100% identical mappings between the 2 sequences as follows:
 	  <td align="center">10,444-28,183</td>
     </tr>
     <tr>
-      <td align="center">segment3/td>
+      <td align="center">segment3</td>
 	  <td align="center">24,399-172,976</td>
 	  <td align="center">28,183-176,760</td>
     </tr>
