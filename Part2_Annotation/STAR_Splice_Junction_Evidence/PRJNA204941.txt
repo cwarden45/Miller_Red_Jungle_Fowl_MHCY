@@ -1,0 +1,28 @@
+Sample	Gender	Tissue
+SRR924202	male	adrenal_gland
+SRR924485	male	adipose
+SRR924539	female	adipose
+SRR924540	male	cerebellum
+SRR924541	female	cerebellum
+SRR924542	male	cerebrum
+SRR924546	female	cerebrum
+SRR924547	male	testes
+SRR924548	female	ovary
+SRR924549	male	heart
+SRR924550	female	heart
+SRR924551	male	hypothalamus
+SRR924552	female	hypothalamus
+SRR924553	male	kidney
+SRR924554	female	kidney
+SRR924555	male	liver
+SRR924556	female	liver
+SRR924557	male	lung
+SRR924558	female	lung
+SRR924559	male	breast_muscle
+SRR924561	female	breast_muscle
+SRR924564	male	sciatic nerve
+SRR924567	female	sciatic nerve
+SRR924570	male	proventriculus
+SRR924573	female	proventriculus
+SRR924582	male	spleen
+SRR924585	female	spleen
