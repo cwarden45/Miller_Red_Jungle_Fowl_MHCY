@@ -7,7 +7,7 @@
 
 This also creates the file *STAR_read_stats-param9.txt*, provided on this GitHub page.
 
-**2a)** Run `STEP02a-create_splice_junction_table_COMBINED-STAR-v3b.R` to create combined files and some QC plots.
+**2a)** Run `STEP02a-create_splice_junction_table_COMBINED-STAR-v3d.R` to create combined files and some QC plots.
 
 This creates the following tables of coverage each splice junction in **each of the 27 [Chickspress](https://geneatlas.arl.arizona.edu/) samples**.
 
@@ -25,7 +25,7 @@ Please note that this function may perform differently in different version of R
 
 For example, the script above works with **R v4.1.2** on Windows, but it encountered a problem when running R *v3.4.4* within Ubuntu.
 
-**2c)** Run `STEP02c-create_splice_junction_table_COMBINED-STAR-v3c.R` to create combined files (importantly, the total CPM counts will now be adjusted for known copies).
+**2c)** Run `STEP02c-create_splice_junction_table_COMBINED-STAR-v3e.R` to create combined files (importantly, the total CPM counts will now be adjusted for known copies).
 
 This creates the file with mean Count-Per-Million (CPM) values for each junction, along with the following density distributions for the mean CPM per splice junction.
 
