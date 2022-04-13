@@ -9,7 +9,7 @@ This also creates the file *STAR_read_stats-param9.txt*, provided on this GitHub
 
 **2a)** Run `STEP02a-create_splice_junction_table_COMBINED-STAR-v3d.R` to create combined files and some QC plots.
 
-This creates the following tables of coverage each splice junction in **each of the 27 [Chickspress](https://geneatlas.arl.arizona.edu/) samples**.
+This creates the following tables of coverage each splice junction in **each of the 27 [Chickspress](https://geneatlas.arl.arizona.edu/) samples**.  Additional sample label information comes from the uploaded files [PRJNA204941_Female.txt](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part2_Annotation/Alignment_and_Quantification_for_Expression/PRJNA204941_Female.txt) and [PRJNA204941_Male.txt](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part2_Annotation/Alignment_and_Quantification_for_Expression/PRJNA204941_Male.txt).
 
 **Raw Counts**: *combined_splice_junctions-STAR-v3_RAW-param9.txt*
 
