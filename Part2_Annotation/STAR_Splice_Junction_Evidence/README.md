@@ -41,6 +41,9 @@ This creates the file *combined_splice_junctions-STAR-v4-param9-ADJUSTED_CPM.txt
 
 **5)** Define confidence assignments using  `STAR-STEP05-create_splice_junction_table_CATEGORY-STAR-v5.R`.
 
+**Evidence Categories (Per Locus)**: *combined_splice_junctions-STAR-v4-CATEGORIES-param9-ADJUSTED_CPM-PER_LOCUS.txt*
+
+Presentation of Evidence Categories in the paper summarizes expression across 100% copies.  However, the exact values are a little different and can be viewed in the file above (in this repository).
 
 ## Potential Additional Considerations
 
