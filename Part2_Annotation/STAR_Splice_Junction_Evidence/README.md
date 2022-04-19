@@ -39,7 +39,7 @@ This creates the file with mean Count-Per-Million (CPM) values for each junction
 
 This creates the file *combined_splice_junctions-STAR-v4-param9-ADJUSTED_CPM.txt*.
 
-**6)** Define confidence assignments using  `STAR-STEP05-create_splice_junction_table_CATEGORY-STAR-v5.R`.
+**5)** Define confidence assignments using  `STAR-STEP05-create_splice_junction_table_CATEGORY-STAR-v5.R`.
 
 
 ## Potential Additional Considerations
