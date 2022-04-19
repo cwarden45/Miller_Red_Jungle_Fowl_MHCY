@@ -1,13 +1,13 @@
 ## Scripts to Asssess Annotations
 
-**1)** Run `STEP01-create_splice_junction_table-STAR-v3b.py`
+**1)** Run `STAR-STEP01-create_splice_junction_table-STAR-v3b.py`
 
  - This creates various types of files for each separate contig (unique junction counts, multi-mapped junction counts, etc.)
  - Also, separately for each contig, normalized CPM is calculated.  **However, please note that this is not adjusted for copy number until a later step.**
 
 This also creates the file *STAR_read_stats-param9.txt*, provided on this GitHub page.
 
-**2a)** Run `STEP02a-create_splice_junction_table_COMBINED-STAR-v3d.R` to create combined files and some QC plots.
+**2a)** Run `STAR-STEP02a-create_splice_junction_table_COMBINED-STAR-v3d.R` to create combined files and some QC plots.
 
 This creates the following tables of coverage each splice junction in **each of the 27 [Chickspress](https://geneatlas.arl.arizona.edu/) samples**.  Additional sample label information comes from the uploaded files **PRJNA204941.txt** (uploaded in this folder).
 
@@ -15,7 +15,7 @@ This creates the following tables of coverage each splice junction in **each of 
 
 **Unique Counts (Count-Per-Million, CPM)**: *combined_splice_junctions-STAR-v3_uniqueCPM-param9.txt*
 
-**2b)** Run `STEP02b-adjust_totalCPM_for_copy_number.R` to adjust total CPM values based upon the total gene copies across the 4 contigs.
+**2b)** Run `STAR-STEP02b-adjust_totalCPM_for_copy_number.R` to adjust total CPM values based upon the total gene copies across the 4 contigs.
 
 This creates the file *combined_splice_junctions-STAR-v4_totalCPM-param9-ADJUSTED.txt*, with **per-sample** mean Count-Per-Million (CPM) **adjusted** by the number of known copy-number on Contigs 1-4.
 
@@ -25,7 +25,7 @@ Please note that this function may perform differently in different version of R
 
 For example, the script above works with **R v4.1.2** on Windows, but it encountered a problem when running R *v3.4.4* within Ubuntu.
 
-**2c)** Run `STEP02c-create_splice_junction_table_COMBINED-STAR-v3e.R` to create combined files (importantly, the total CPM counts will now be adjusted for known copies).
+**2c)** Run `STAR-STEP02c-create_splice_junction_table_COMBINED-STAR-v3e.R` to create combined files (importantly, the total CPM counts will now be adjusted for known copies).
 
 This creates the file with mean Count-Per-Million (CPM) values for each junction, along with the following density distributions for the mean CPM per splice junction.
 
@@ -33,13 +33,13 @@ This creates the file with mean Count-Per-Million (CPM) values for each junction
 
 ![Per-Sample STAR Splice Junction Mean Count-Per-Million Distribution](combined_splice_junctions-STAR-v4_totalCPM-ADJUSTED-sample_density-param9.png "Per-Sample STAR Splice Junction Mean Count-Per-Million Distribution")
 
-**3)** Create some additional separate files with varying stringency using `STEP03-create_splice_junction_list-STAR-v3b.py`.
+**3)** Create some additional separate files with varying stringency using `STAR-STEP03-create_splice_junction_list-STAR-v3b.py`.
 
-**4)** Create a summary of junctions in 1 file using `STEP04-create_splice_junction_summary-STAR-v3c.R`.
+**4)** Create a summary of junctions in 1 file using `STAR-STEP04-create_splice_junction_summary-STAR-v3c.R`.
 
 This creates the file *combined_splice_junctions-STAR-v4-param9-ADJUSTED_CPM.txt*.
 
-**6)** Define confidence assignments using  `STEP05-create_splice_junction_table_CATEGORY-STAR-v4.R`.
+**6)** Define confidence assignments using  `STAR-STEP05-create_splice_junction_table_CATEGORY-STAR-v5.R`.
 
 
 ## Potential Additional Considerations
