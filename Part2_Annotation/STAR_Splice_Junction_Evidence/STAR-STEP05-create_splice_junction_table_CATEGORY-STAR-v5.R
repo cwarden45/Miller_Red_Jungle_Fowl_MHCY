@@ -1,6 +1,6 @@
 junction_file = "combined_splice_junctions-STAR-v4-param9-ADJUSTED_CPM.txt"
 gene_category_file = "combined_splice_junctions-STAR-v4_totalCPM-param9-ADJUSTED.txt"
-output_file = "combined_splice_junctions-STAR-v4-CATEGORIES-param9-ADJUSTED_CPM-PER_LOCI.txt"
+output_file = "combined_splice_junctions-STAR-v4-CATEGORIES-param9-ADJUSTED_CPM-PER_LOCUS.txt"
 output_file2 = "combined_splice_junctions-STAR-v4-CATEGORIES-param9-ADJUSTED_CPM-SUMMED.txt"
 
 junction_table = read.table(junction_file, head=T, sep="\t")
