@@ -55,6 +55,20 @@ Summary statistics at various thresholds can be found within the **SD_stats.txt*
 
 Statistics for individual transcripts / samples that qualified to be tested with a median adjusted CPM greater than 10 (before the log2-transformation for the standard deviation calculation) are described below (for a representative locus, if there are multiple 100% identical gene copies):
 
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Gene</th>
+      <th align="center">Sample</th>
+	  <th align="center">Splice Junction<br>Standard Deviation</th>
+    </tr>
+    <tr>
+	  <td align="center">MHCY8a</td>
+      <td align="center">SRR924564.M.sciatic.nerve</td>
+     <td align="center"><b>0.15</b><br><i>(low SD = even expr)</i></td>
+    </tr>
+</tbody>
+</table>
 
 Selected samples to walk through the visualization are provided [here]().  **The basic idea is that genes with high expression but a *low standard deviation* calculated across splice junctions for a given sample will be more likely to have an even contribution of reads that may truely come from the intended locus.**  For example, when the coverage spikes within a subset of the gene, then we believe this indicates evidence that those reads contributing to the substantially higher coverage are **not** in fact coming from the locus of interest.
 
