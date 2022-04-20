@@ -133,54 +133,54 @@ Statistics for individual transcripts / samples that qualified to be tested with
      <td align="center">1.85</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY39r</td>
+      <td align="center">SRR924558.F.lung</td>
+     <td align="center">3.77</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY5f</td>
+      <td align="center">SRR924567.F.sciatic.nerve</td>
+     <td align="center">1.60</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY5f</td>
+      <td align="center">SRR924564.M.sciatic.nerve</td>
+     <td align="center">1.81</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY5f</td>
+      <td align="center">SRR924554.F.kidney</td>
+     <td align="center">1.88</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY5f</td>
+      <td align="center">SRR924550.F.heart</td>
+     <td align="center">2.03</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY5f</td>
+      <td align="center">SRR924539.F.adipose</td>
+     <td align="center">2.49</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY5f</td>
+      <td align="center">SRR924585.F.spleen</td>
+     <td align="center">2.59</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY5f</td>
+      <td align="center">SRR924557.M.lung</td>
+     <td align="center">2.71</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY5f</td>
+      <td align="center">SRR924582.M.spleen</td>
+     <td align="center">2.72</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY5f</td>
+      <td align="center">SRR924558.F.lung</td>
+     <td align="center">3.00</td>
     </tr>
     <tr>
 	  <td align="center"></td>
