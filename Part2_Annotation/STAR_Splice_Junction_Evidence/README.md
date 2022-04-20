@@ -223,7 +223,7 @@ Statistics for individual transcripts / samples that qualified to be tested with
      <td align="center">3.01</td>
     </tr>
     <tr>
-	  <td align="center">MHCY39r</td>
+	  <td align="center">MHCY39r</br><i>(fewer exons)</i></td>
       <td align="center">SRR924558.F.lung</td>
      <td align="center">3.77</td>
     </tr>
