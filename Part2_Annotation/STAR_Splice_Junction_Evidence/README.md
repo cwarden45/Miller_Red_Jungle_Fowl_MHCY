@@ -51,4 +51,4 @@ Presentation of Evidence Categories in the paper summarizes expression across 10
 
 The QC plots for evenness of coverage can be found within the [SD_Plots](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/STAR_Splice_Junction_Evidence/SD_Plots) subfolder.
 
-**b)** STAR parameter troubleshooting
+**b)** [STAR parameter troubleshooting](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/discussions/2)
