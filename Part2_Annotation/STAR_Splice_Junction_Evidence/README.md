@@ -133,11 +133,6 @@ Statistics for individual transcripts / samples that qualified to be tested with
      <td align="center">1.85</td>
     </tr>
     <tr>
-	  <td align="center">MHCY39r</td>
-      <td align="center">SRR924558.F.lung</td>
-     <td align="center">3.77</td>
-    </tr>
-    <tr>
 	  <td align="center">MHCY5f</td>
       <td align="center">SRR924567.F.sciatic.nerve</td>
      <td align="center">1.60</td>
