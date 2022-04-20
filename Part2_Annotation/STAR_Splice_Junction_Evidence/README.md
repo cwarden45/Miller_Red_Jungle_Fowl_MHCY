@@ -63,72 +63,72 @@ Statistics for individual transcripts / samples that qualified to be tested with
 	  <th align="center">Splice Junction<br>Standard Deviation</th>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY8a<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY8a</b></br>(Good Evidence)</td>
       <td align="center">SRR924564.M.sciatic.nerve</td>
      <td align="center"><b>0.15</b><br><i>(low SD = even expr)</i></td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924567.F.sciatic.nerve</td>
      <td align="center"><b>0.22</b><br><i>(low SD = even expr)</i></td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924202.M.adrenal_gland</td>
      <td align="center"><b>0.36</b><br><i>(low SD = even expr)</i></td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924564.M.sciatic.nerve</td>
      <td align="center"><b>0.42</b><br><i>(low SD = even expr)</i></td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924550.F.heart</td>
      <td align="center"><b>0.55</b><br><i>(low SD = even expr)</i></td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924554.F.kidney</td>
      <td align="center"><b>0.57</b><br><i>(low SD = even expr)</i></td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924555.M.liver</td>
      <td align="center"><b>0.58</b><br><i>(low SD = even expr)</i></td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924556.F.liver</td>
      <td align="center">0.90</td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924585.F.spleen</td>
      <td align="center">1.22</td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924539.F.adipose</td>
      <td align="center">1.27</td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924582.M.spleen</td>
      <td align="center">1.29</td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924485.M.adipose</td>
      <td align="center">1.36</td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924558.F.lung</td>
      <td align="center">1.77</td>
     </tr>
     <tr>
-	  <td align="center"><b>MHCY37c<b/></br>(Good Evidence)</td>
+	  <td align="center"><b>MHCY37c</b></br>(Good Evidence)</td>
       <td align="center">SRR924557.M.lung</td>
      <td align="center">1.85</td>
     </tr>
@@ -183,64 +183,64 @@ Statistics for individual transcripts / samples that qualified to be tested with
      <td align="center">3.00</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY32g</td>
+      <td align="center">SRR924567.F.sciatic.nerve</td>
+     <td align="center">1.62</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY32g</td>
+      <td align="center">SRR924564.M.sciatic.nerve</td>
+     <td align="center">1.82</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY32g</td>
+      <td align="center">SRR924554.F.kidney</td>
+     <td align="center">1.88</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY32g</td>
+      <td align="center">SRR924539.F.adipose</td>
+     <td align="center">2.50</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY32g</td>
+      <td align="center">SRR924585.F.spleen</td>
+     <td align="center">2.57</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY32g</td>
+      <td align="center">SRR924557.M.lung</td>
+     <td align="center">2.72</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY32g</td>
+      <td align="center">SRR924582.M.spleen</td>
+     <td align="center">2.72</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY32g</td>
+      <td align="center">SRR924558.F.lung</td>
+     <td align="center">3.01</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">MHCY39r</td>
+      <td align="center">SRR924558.F.lung</td>
+     <td align="center">3.77</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">YLEC8a</td>
+      <td align="center">SRR924582.M.spleen</td>
+     <td align="center">2.02</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">YLEC8a</td>
+      <td align="center">SRR924585.F.spleen</td>
+     <td align="center">2.04</td>
     </tr>
     <tr>
-	  <td align="center"></td>
-      <td align="center"></td>
-     <td align="center"></td>
+	  <td align="center">YLEC9b</td>
+      <td align="center">SRR924582.M.spleen</td>
+     <td align="center">2.17</td>
     </tr>
 </tbody>
 </table>
