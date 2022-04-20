@@ -47,8 +47,10 @@ Presentation of Evidence Categories in the paper summarizes expression across 10
 
 ## Potential Additional Considerations
 
-**a)** Quantify evenness of coverage and generate QC plots for all gene candidates with multiple exons using  `STAR_SD_calculations_and_plots-v2.R`.
+**a)** Quantify evenness of coverage and generate QC plots for all gene candidates with multiple exons using  `STAR_SD_calculations_and_plots-v3.R`.
 
 The QC plots for evenness of coverage can be found within the [SD_Plots](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/STAR_Splice_Junction_Evidence/SD_Plots) subfolder.
+
+Statistics for transcripts / samples that qualified to be tested are described below:
 
 **b)** [STAR parameter troubleshooting](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/discussions/2)
