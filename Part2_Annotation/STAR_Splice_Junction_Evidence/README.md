@@ -56,6 +56,6 @@ Summary statistics at various thresholds can be found within the **SD_stats.txt*
 Statistics for individual transcripts / samples that qualified to be tested with a median adjusted CPM greater than 10 (before the log2-transformation for the standard deviation calculation) are described below:
 
 
-Selected samples to walk through the visualization are provided [here]().
+Selected samples to walk through the visualization are provided [here]().  **The basic idea is that genes with high expression but a low standard deviation calculated across splice junctions for a given sample will be more likely to have an even contribution of reads that may truely come from the intended locus.**  For example, when the coverage spikes within a subset of the gene, then we believe this indicates evidence that those reads contributing to the substantially higher coverage are **not** in fact coming from the locus of interest.
 
 **b)** [STAR parameter troubleshooting](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/discussions/2)
