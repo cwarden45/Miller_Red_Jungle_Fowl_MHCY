@@ -51,6 +51,11 @@ Presentation of Evidence Categories in the paper summarizes expression across 10
 
 The QC plots for evenness of coverage can be found within the [SD_Plots](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/STAR_Splice_Junction_Evidence/SD_Plots) subfolder.
 
-Statistics for transcripts / samples that qualified to be tested are described below:
+Summary statistics at various thresholds can be found within the **SD_stats.txt** file.
+
+Statistics for individual transcripts / samples that qualified to be tested with a median adjusted CPM greater than 10 (before the log2-transformation for the standard deviation calculation) are described below:
+
+
+Selected samples to walk through the visualization are provided [here]().
 
 **b)** [STAR parameter troubleshooting](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/discussions/2)
