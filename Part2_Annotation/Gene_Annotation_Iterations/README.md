@@ -11,4 +11,4 @@
 ## Related Discussions
 
  - [Comparison to GENSCAN Predictions](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/discussions/5)
- - [Critical Assessment by Visual Inspection for the Five-locus YLEC Cluster](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/discussions/4) - this may influence additional discussion and/or annotation revisions
+ - [Critical Assessment by Visual Inspection for the Five-locus YLEC Cluster](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/discussions/4) - this may influence additional discussions and/or annotation revisions
