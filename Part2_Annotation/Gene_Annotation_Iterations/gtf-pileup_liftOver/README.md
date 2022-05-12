@@ -6,6 +6,8 @@ However, to walk through the steps involved:
 
 **1)** Compare assemblies with a BWA-MEM alignment and create a .pileup file comparing the previous and current assembly for a given contig using `BWA-MEM_alignment.py`.
 
+A similar strategy was also used to transfer annotations from Contig1 to the 5 clones that contributed to that assembly but are not necessarily 100% identical (1o23, 102b15, 190m7, 173o1, and 19d16).  For 1o23 and 102b15, the code was split into two steps to allow manual filtering of supplemental reads (similar to [the creation and revision of Contig1](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part1_Assembly/Contig1)).
+
 **2)** Transfer annotations using `gtf-pileup_liftOver-v2.py`.
 
 The `shift` value will change depending upon the assembly sequences.  This will not be constant for all annotation transfers, so alternative versions of the transfer are not provided for the other 3 contigs.  With only a 5 bp difference, both versions of the assembly started at the same place without any large re-arrangements (most commonly, large deletions in certain revised assemblies).
