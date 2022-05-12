@@ -3,7 +3,7 @@
 
 The code needed to be manually revised during several iterations of analysis.  So, one set of code cannot be provided for all annotation updates.
 
-However, the code for the most recent update can be used to try and help explain how the annotations were updated for downstream analysis (including creation of part of *Figure 1*).  The starting point for this code also changed over time, but the code that starts as a GTF was created around the time that the annotations were tranferred to modified assembly sequencing (largely with the assistance of the [gtf-pileup_liftOver](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/Gene_Annotation_Iterations/gtf-pileup_liftOver) code).
+However, the code for the most recent update can be used to try and help explain how the annotations were updated for downstream analysis (including creation of part of *Figure 1*).  The starting point for this code also changed over time, but the code that starts with GTF files as the starting point was created around the time that the annotations were tranferred to modified assembly sequencing (largely with the assistance of the [gtf-pileup_liftOver](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/Gene_Annotation_Iterations/gtf-pileup_liftOver) code).
 
 **0)** If needed re-name the genes using `STEP00-convert_gene_names.py`.
 
