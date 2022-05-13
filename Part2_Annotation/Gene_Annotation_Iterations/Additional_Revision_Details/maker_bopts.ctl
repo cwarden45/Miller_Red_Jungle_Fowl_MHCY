@@ -1,0 +1,27 @@
+#-----BLAST and Exonerate Statistics Thresholds
+blast_type=ncbi+
+pcov_blastn=0.8
+pid_blastn=0.85
+eval_blastn=1e-10
+bit_blastn=40
+depth_blastn=0
+pcov_blastx=0.5
+pid_blastx=0.4
+eval_blastx=1e-06
+bit_blastx=30
+depth_blastx=0
+pcov_tblastx=0.8
+pid_tblastx=0.85
+eval_tblastx=1e-10
+bit_tblastx=40
+depth_tblastx=0
+pcov_rm_blastx=0.5
+pid_rm_blastx=0.4
+eval_rm_blastx=1e-06
+bit_rm_blastx=30
+eva_pcov_blastn=0.8
+eva_pid_blastn=0.85
+eva_eval_blastn=1e-10
+eva_bit_blastn=40
+ep_score_limit=20
+en_score_limit=20
