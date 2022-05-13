@@ -1,3 +1,9 @@
+## Details for Running Exonerate
+
+
+## Details for Running MAKER2
+
+
 ## The "source" column in the gene annotation GTF
 
 When the code for downstream analysis started from a GTF file (to be similar as presented [here](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/Gene_Annotation_Iterations/Annotation_Update_Example)), changes in that [GTF file including protein-coding genes](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part2_Annotation/GTF_GFF_files/Combined_updated_genes-24March2022.gtf) were logged within the "source" column.
