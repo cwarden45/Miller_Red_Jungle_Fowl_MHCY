@@ -1,5 +1,26 @@
 ## Details for Running Exonerate
 
+In general, there are at least two purposes for which Exonerate can be used:
+
+**1)** ***Discovery** of new gene annotations related to previous gene annotations*:
+
+If you knew the type of genes that you expected to be present (but you didn't know the precise gene sequences or locations), then you could run Exonerate with a command as follows:
+
+`/opt/exonerate-2.2.0-x86_64/bin/exonerate --showtargetgff true --model protein2genome --showalignment no $QUERY $TARGET > $OUTPUT`
+
+This was tested at certain earlier stages, but we don't emphasize that strategy very much with the GitHub content.
+
+**2)** ***Transfer** of gene annotations for the same locus*:
+
+This is of some important for understanding the current annotations.
+
+For example, overall, we primarily used the [gtf-pileup_liftOver](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/Gene_Annotation_Iterations/gtf-pileup_liftOver) strategy to transfer annotations.
+
+However, this left out the locus currently described as MHCY20.  Because there were other loci that were missed with Exonerate, we don't emphase that as the primary method.  However, this was the command that we thought was relatively best to look for similar loci in sequence with repeats and large duplications:
+
+`/opt/exonerate-2.2.0-x86_64/bin/exonerate --bestn 1 --showtargetgff true --model protein2genome --showalignment no --percent 97 --maxintron 2000 $PEPTIDEFASTA $GENOMICTARGETFASTA > $OUTPUT`
+
+The parameters `--percent 97 --maxintron 2000 ` may also be of some particular importance.  As mentioend in the *gtf-pileup_liftOver* discussion, there is some additional information related to the basis of selecting those parameters [here](https://www.biostars.org/p/472543/)
 
 ## Details for Running MAKER2
 
