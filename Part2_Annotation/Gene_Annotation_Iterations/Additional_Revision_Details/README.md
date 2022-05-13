@@ -24,6 +24,17 @@ The parameters `--percent 97 --maxintron 2000 ` may also be of some particular i
 
 ## Details for Running MAKER2
 
+MAKER2 was run using the command `/opt/maker/bin/maker -nolock -fix_nucleotides`.
+
+Within that same folder, the following files must also be found:
+
+ - **maker_bopts.ctl**
+ - **maker_exe.ctl**
+ - **maker_opts.ctl**
+
+Examples for Contig1 are provided within this subfolder of the GitHub repository.
+
+For visualization purposes, those files were filtered with the command `grep CDS $IN > $OUT`, and the CDS exons annotations were combined between the 4 contigs to provide 1 file that can be used for visualization in a program like [IGV](https://software.broadinstitute.org/software/igv/).
 
 ## The "source" column in the gene annotation GTF
 
