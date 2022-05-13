@@ -34,6 +34,8 @@ Within that same folder, the following files must also be found:
 
 Examples for Contig1 are provided within this subfolder of the GitHub repository.
 
+With that set of parameters, the **a FASTA file with transcripts defined from manually revised annotations** at a given time were provided as input to MAKER as "*EST Evidence*".  Such a file could be created with code similar to provided [here](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/Gene_Annotation_Iterations/Annotation_Update_Example).
+
 For visualization purposes, those files were filtered with the command `grep CDS $IN > $OUT`, and the CDS exons annotations were combined between the 4 contigs to provide 1 file that can be used for visualization in a program like [IGV](https://software.broadinstitute.org/software/igv/).
 
 ## The "source" column in the gene annotation GTF
