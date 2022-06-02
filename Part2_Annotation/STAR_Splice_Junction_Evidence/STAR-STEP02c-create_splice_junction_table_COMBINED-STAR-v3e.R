@@ -52,6 +52,7 @@ totalCPM.table = read.table(combined_totalCPM, head=T, sep="\t")
 totalCPM.mat = totalCPM.table[,9:ncol(totalCPM.table)]
 
 #sample (based upon https://github.com/cwarden45/RNAseq_templates/blob/master/TopHat_Workflow/qc.R)
+#add coloring based upon samples with a relatively higher fraction of multi-mapped reads: https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/discussions/2
 labelColors = rep("black",nrow(sample_info))
 labelColors[sample_info$Sample == "SRR924556"]="orange"
 labelColors[sample_info$Sample == "SRR924547"]="orange"
