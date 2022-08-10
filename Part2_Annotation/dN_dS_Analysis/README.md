@@ -32,9 +32,11 @@ The configurations are designed to run pairwise dN and dS estimates, with minor 
 
 Input files and output files are uploaded for the following folders:
 
-[Bitarello_codeml-alpha1-helix]()
-[Bitarello_codeml-alpha2-helix]()
-[Bitarello_codeml-nonAlphaHelices]()
+[Bitarello_codeml-alpha1-helix](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/dN_dS_Analysis/Chicken_AlphaHelix-MHCYad_like-n6/Bitarello_codeml-alpha1-helix)
+
+[Bitarello_codeml-alpha2-helix](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/dN_dS_Analysis/Chicken_AlphaHelix-MHCYad_like-n6/Bitarello_codeml-alpha2-helix)
+
+[Bitarello_codeml-nonAlphaHelices](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/dN_dS_Analysis/Chicken_AlphaHelix-MHCYad_like-n6/Bitarello_codeml-nonAlphaHelices)
 
 To help with import into R, the header was manually removed from the *2NG.dN* and *2NG.dS* files within each subfolder (and the files were then re-named to have a *.txt* extension).
 
@@ -64,9 +66,11 @@ The configurations are designed to run pairwise dN and dS estimates, with minor 
 
 Input files and output files are uploaded for the following folders:
 
-[Bitarello_codeml-alpha1-helix]()
-[Bitarello_codeml-alpha2-helix]()
-[Bitarello_codeml-nonAlphaHelices]()
+[Bitarello_codeml-alpha1-helix](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/dN_dS_Analysis/IMGT_HLA-AlphaHelix-n25/Bitarello_codeml-alpha1-helix)
+
+[Bitarello_codeml-alpha2-helix](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/dN_dS_Analysis/IMGT_HLA-AlphaHelix-n25/Bitarello_codeml-alpha2-helix)
+
+[Bitarello_codeml-nonAlphaHelices](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/dN_dS_Analysis/IMGT_HLA-AlphaHelix-n25/Bitarello_codeml-nonAlphaHelices)
 
 To help with import into R, the header was manually removed from the *2NG.dN* and *2NG.dS* files within each subfolder (and the files were then re-named to have a *.txt* extension).
 
