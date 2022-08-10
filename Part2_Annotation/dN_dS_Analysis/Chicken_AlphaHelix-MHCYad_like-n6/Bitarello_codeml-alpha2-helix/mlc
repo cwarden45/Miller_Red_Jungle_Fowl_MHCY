@@ -1,0 +1,260 @@
+      6     93
+
+MW423627_MHCYa                  ATC ACC AAG AGG AGA TGG GAG ACA GAA GGG ACG TAT GCT GAG AGA TGG AAG CAT GAG CTG GGG ACT GTC TGT GTT CAG AAC TTG AGG AGA TAC 
+MW917156_5.1_Line_N             ATC ACC AAG AGG CGA TGG GAG ACA GAA GGG ACG TAT GCT GAG AGA TGG AAG CAT GAG CTG GGG ACT GTC TGT GTT CAG AAC TTG AGG AGA TAC 
+MW917158_8.1_Line_N             ATC ACC AAG AGG AGA TGG GAG ACA GAA GGG ACG TAT GCT GAG AGA TGG AAG CAT GAG CTG GGG ACT GTC TGC GTT CAG AAT TTG AGG AGA TAC 
+AF218783.1_7.1_YFV_CDS          ATC ACC AAG AGG AGA TGG GAG ACA GAA GGG ACG TAT GCT GAG AGA TGG AAG CAT GAG CTG GGG ACT GTC TGT GTT CAG AAC TTG AGG AGA TAC 
+RJF.Contig1.LOC13.MHCY1d        ATC ACC AAG AGG AGA TGG GAG ACA GAA GGG ACG TAT GCT GAG AGA TGG AAG CAT GAG CTG GGG ACT GTC TGT GTT CAG AAC TTG AGG AGA TAC 
+RJF.Contig1.LOC39.MHCY13e       ATC ACC AAG AGG AGA TGG GAG GAG GAA GGG ACG TAT GCT GAG AGA TGG AAG CAT GAG CTG GGG ACT GTC TGT GTT CAG AAC TTG AGG AGA TAC 
+
+
+
+Printing out site pattern counts
+
+
+         6         72  P
+
+MW423627_MHCYa                  AAC AAG ACA ACC ACG ACT AGA AGA AGG ATC CAG CAT CTG GAA GAG GCT GGG GTC GTT TAC TAT TGG TGT TTG 
+MW917156_5.1_Line_N             ... ... ... ... ... ... ... C.. ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 
+MW917158_8.1_Line_N             ..T ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ..C ... 
+AF218783.1_7.1_YFV_CDS          ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 
+RJF.Contig1.LOC13.MHCY1d        ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 
+RJF.Contig1.LOC39.MHCY13e       ... ... GAG ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... 
+
+    1    2    1    1    1    1    2    1    2    1    1    1    1    1    3
+    1    2    1    1    1    1    2    1    1
+
+CODONML (in paml version 4.8a, August 2014)  ../alpha2-alphaHelix-nuc.paml
+Model: One dN/dS ratio for branches, 
+Codon frequency model: F3x4
+ns =   6  ls =  31
+
+Codon usage in sequences
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   0   0   0   0   0   0 | Ser TCT   0   0   0   0   0   0 | Tyr TAT   1   1   1   1   1   1 | Cys TGT   1   1   0   1   1   1
+    TTC   0   0   0   0   0   0 |     TCC   0   0   0   0   0   0 |     TAC   1   1   1   1   1   1 |     TGC   0   0   1   0   0   0
+Leu TTA   0   0   0   0   0   0 |     TCA   0   0   0   0   0   0 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   1   1   1   1   1   1 |     TCG   0   0   0   0   0   0 |     TAG   0   0   0   0   0   0 | Trp TGG   2   2   2   2   2   2
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   0   0   0   0   0   0 | Pro CCT   0   0   0   0   0   0 | His CAT   1   1   1   1   1   1 | Arg CGT   0   0   0   0   0   0
+    CTC   0   0   0   0   0   0 |     CCC   0   0   0   0   0   0 |     CAC   0   0   0   0   0   0 |     CGC   0   0   0   0   0   0
+    CTA   0   0   0   0   0   0 |     CCA   0   0   0   0   0   0 | Gln CAA   0   0   0   0   0   0 |     CGA   0   1   0   0   0   0
+    CTG   1   1   1   1   1   1 |     CCG   0   0   0   0   0   0 |     CAG   1   1   1   1   1   1 |     CGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   0   0   0   0   0   0 | Thr ACT   1   1   1   1   1   1 | Asn AAT   0   0   1   0   0   0 | Ser AGT   0   0   0   0   0   0
+    ATC   1   1   1   1   1   1 |     ACC   1   1   1   1   1   1 |     AAC   1   1   0   1   1   1 |     AGC   0   0   0   0   0   0
+    ATA   0   0   0   0   0   0 |     ACA   1   1   1   1   1   0 | Lys AAA   0   0   0   0   0   0 | Arg AGA   3   2   3   3   3   3
+Met ATG   0   0   0   0   0   0 |     ACG   1   1   1   1   1   1 |     AAG   2   2   2   2   2   2 |     AGG   2   2   2   2   2   2
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   1   1   1   1   1   1 | Ala GCT   1   1   1   1   1   1 | Asp GAT   0   0   0   0   0   0 | Gly GGT   0   0   0   0   0   0
+    GTC   1   1   1   1   1   1 |     GCC   0   0   0   0   0   0 |     GAC   0   0   0   0   0   0 |     GGC   0   0   0   0   0   0
+    GTA   0   0   0   0   0   0 |     GCA   0   0   0   0   0   0 | Glu GAA   1   1   1   1   1   1 |     GGA   0   0   0   0   0   0
+    GTG   0   0   0   0   0   0 |     GCG   0   0   0   0   0   0 |     GAG   3   3   3   3   3   4 |     GGG   2   2   2   2   2   2
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: MW423627_MHCYa 
+position  1:    T:0.19355    C:0.09677    A:0.41935    G:0.29032
+position  2:    T:0.16129    C:0.16129    A:0.35484    G:0.32258
+position  3:    T:0.19355    C:0.16129    A:0.16129    G:0.48387
+Average         T:0.18280    C:0.13978    A:0.31183    G:0.36559
+
+#2: MW917156_5.1_Line_N
+position  1:    T:0.19355    C:0.12903    A:0.38710    G:0.29032
+position  2:    T:0.16129    C:0.16129    A:0.35484    G:0.32258
+position  3:    T:0.19355    C:0.16129    A:0.16129    G:0.48387
+Average         T:0.18280    C:0.15054    A:0.30108    G:0.36559
+
+#3: MW917158_8.1_Line_N
+position  1:    T:0.19355    C:0.09677    A:0.41935    G:0.29032
+position  2:    T:0.16129    C:0.16129    A:0.35484    G:0.32258
+position  3:    T:0.19355    C:0.16129    A:0.16129    G:0.48387
+Average         T:0.18280    C:0.13978    A:0.31183    G:0.36559
+
+#4: AF218783.1_7.1_YFV_CDS
+position  1:    T:0.19355    C:0.09677    A:0.41935    G:0.29032
+position  2:    T:0.16129    C:0.16129    A:0.35484    G:0.32258
+position  3:    T:0.19355    C:0.16129    A:0.16129    G:0.48387
+Average         T:0.18280    C:0.13978    A:0.31183    G:0.36559
+
+#5: RJF.Contig1.LOC13.MHCY1d
+position  1:    T:0.19355    C:0.09677    A:0.41935    G:0.29032
+position  2:    T:0.16129    C:0.16129    A:0.35484    G:0.32258
+position  3:    T:0.19355    C:0.16129    A:0.16129    G:0.48387
+Average         T:0.18280    C:0.13978    A:0.31183    G:0.36559
+
+#6: RJF.Contig1.LOC39.MHCY13e
+position  1:    T:0.19355    C:0.09677    A:0.38710    G:0.32258
+position  2:    T:0.16129    C:0.12903    A:0.38710    G:0.32258
+position  3:    T:0.19355    C:0.16129    A:0.12903    G:0.51613
+Average         T:0.18280    C:0.12903    A:0.30108    G:0.38710
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT       0 | Ser S TCT       0 | Tyr Y TAT       6 | Cys C TGT       5
+      TTC       0 |       TCC       0 |       TAC       6 |       TGC       1
+Leu L TTA       0 |       TCA       0 | *** * TAA       0 | *** * TGA       0
+      TTG       6 |       TCG       0 |       TAG       0 | Trp W TGG      12
+------------------------------------------------------------------------------
+Leu L CTT       0 | Pro P CCT       0 | His H CAT       6 | Arg R CGT       0
+      CTC       0 |       CCC       0 |       CAC       0 |       CGC       0
+      CTA       0 |       CCA       0 | Gln Q CAA       0 |       CGA       1
+      CTG       6 |       CCG       0 |       CAG       6 |       CGG       0
+------------------------------------------------------------------------------
+Ile I ATT       0 | Thr T ACT       6 | Asn N AAT       1 | Ser S AGT       0
+      ATC       6 |       ACC       6 |       AAC       5 |       AGC       0
+      ATA       0 |       ACA       5 | Lys K AAA       0 | Arg R AGA      17
+Met M ATG       0 |       ACG       6 |       AAG      12 |       AGG      12
+------------------------------------------------------------------------------
+Val V GTT       6 | Ala A GCT       6 | Asp D GAT       0 | Gly G GGT       0
+      GTC       6 |       GCC       0 |       GAC       0 |       GGC       0
+      GTA       0 |       GCA       0 | Glu E GAA       6 |       GGA       0
+      GTG       0 |       GCG       0 |       GAG      19 |       GGG      12
+------------------------------------------------------------------------------
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.19355    C:0.10215    A:0.40860    G:0.29570
+position  2:    T:0.16129    C:0.15591    A:0.36022    G:0.32258
+position  3:    T:0.19355    C:0.16129    A:0.15591    G:0.48925
+Average         T:0.18280    C:0.13978    A:0.30824    G:0.36918
+
+Codon frequencies under model, for use in evolver (TTT TTC TTA TTG ... GGG):
+  0.00639182  0.00532652  0.00514896  0.01615710
+  0.00617876  0.00514896  0.00497733  0.01561853
+  0.01427506  0.01189588  0.00000000  0.00000000
+  0.01278364  0.01065303  0.00000000  0.03231419
+  0.00337346  0.00281122  0.00271751  0.00852736
+  0.00326101  0.00271751  0.00262693  0.00824311
+  0.00753406  0.00627838  0.00606910  0.01904443
+  0.00674692  0.00562243  0.00543502  0.01705471
+  0.01349384  0.01124487  0.01087004  0.03410943
+  0.01304404  0.01087004  0.01050770  0.03297245
+  0.03013624  0.02511353  0.02427642  0.07617772
+  0.02698768  0.02248973  0.02174007  0.06821885
+  0.00976528  0.00813773  0.00786647  0.02468445
+  0.00943977  0.00786647  0.00760426  0.02386164
+  0.02180912  0.01817427  0.01756846  0.05512861
+  0.01953056  0.01627546  0.01573295  0.04936891
+
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+MW423627_MHCYa      
+MW917156_5.1_Line_N -1.0000 (0.0000 0.0496)
+MW917158_8.1_Line_N -1.0000 (0.0000 0.1047)-1.0000 (0.0000 0.1600)
+AF218783.1_7.1_YFV_CDS-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0496)-1.0000 (0.0000 0.1047)
+RJF.Contig1.LOC13.MHCY1d-1.0000 (0.0000 0.0000)-1.0000 (0.0000 0.0496)-1.0000 (0.0000 0.1047)-1.0000 (0.0000 0.0000)
+RJF.Contig1.LOC39.MHCY13e 0.5446 (0.0280 0.0514) 0.2690 (0.0281 0.1045) 0.1685 (0.0280 0.1660) 0.5446 (0.0280 0.0514) 0.5446 (0.0280 0.0514)
+
+pairwise comparison, codon frequencies: F3x4.
+
+
+2 (MW917156_5.1_Line_N) ... 1 (MW423627_MHCYa)
+lnL = -123.176745
+  0.03391  0.40000  0.00100
+
+t= 0.0339  S=    13.4  N=    79.6  dN/dS=  0.0010  dN = 0.0001  dS = 0.0778
+
+
+3 (MW917158_8.1_Line_N) ... 1 (MW423627_MHCYa)
+lnL = -125.229950
+  0.06406 999.00000  0.00100
+
+t= 0.0641  S=    23.5  N=    69.5  dN/dS=  0.0010  dN = 0.0001  dS = 0.0841
+
+
+3 (MW917158_8.1_Line_N) ... 2 (MW917156_5.1_Line_N)
+lnL = -130.319479
+  0.10342  1.31358  0.00100
+
+t= 0.1034  S=    16.6  N=    76.4  dN/dS=  0.0010  dN = 0.0002  dS = 0.1921
+
+
+4 (AF218783.1_7.1_YFV_CDS) ... 1 (MW423627_MHCYa)
+lnL = -117.499270
+  0.00001  0.40000 99.00000
+
+t= 0.0000  S=    13.2  N=    79.8  dN/dS= 99.0000  dN = 0.0000  dS = 0.0000
+
+
+4 (AF218783.1_7.1_YFV_CDS) ... 2 (MW917156_5.1_Line_N)
+lnL = -123.176745
+  0.03391  0.40000  0.00100
+
+t= 0.0339  S=    13.4  N=    79.6  dN/dS=  0.0010  dN = 0.0001  dS = 0.0778
+
+
+4 (AF218783.1_7.1_YFV_CDS) ... 3 (MW917158_8.1_Line_N)
+lnL = -125.229950
+  0.06406 999.00000  0.00100
+
+t= 0.0641  S=    23.5  N=    69.5  dN/dS=  0.0010  dN = 0.0001  dS = 0.0841
+
+
+5 (RJF.Contig1.LOC13.MHCY1d) ... 1 (MW423627_MHCYa)
+lnL = -117.499270
+  0.00001  0.40000 99.00000
+
+t= 0.0000  S=    13.2  N=    79.8  dN/dS= 99.0000  dN = 0.0000  dS = 0.0000
+
+
+5 (RJF.Contig1.LOC13.MHCY1d) ... 2 (MW917156_5.1_Line_N)
+lnL = -123.176745
+  0.03391  0.40000  0.00100
+
+t= 0.0339  S=    13.4  N=    79.6  dN/dS=  0.0010  dN = 0.0001  dS = 0.0778
+
+
+5 (RJF.Contig1.LOC13.MHCY1d) ... 3 (MW917158_8.1_Line_N)
+lnL = -125.229950
+  0.06406 999.00000  0.00100
+
+t= 0.0641  S=    23.5  N=    69.5  dN/dS=  0.0010  dN = 0.0001  dS = 0.0841
+
+
+5 (RJF.Contig1.LOC13.MHCY1d) ... 4 (AF218783.1_7.1_YFV_CDS)
+lnL = -117.499271
+  0.00001  5.01471 99.00000
+
+t= 0.0000  S=    20.4  N=    72.6  dN/dS= 99.0000  dN = 0.0000  dS = 0.0000
+
+
+6 (RJF.Contig1.LOC39.MHCY13e) ... 1 (MW423627_MHCYa)
+lnL = -131.781671
+  0.10092  2.63537  0.52199
+
+t= 0.1009  S=    17.7  N=    75.3  dN/dS=  0.5220  dN = 0.0286  dS = 0.0549
+
+
+6 (RJF.Contig1.LOC39.MHCY13e) ... 2 (MW917156_5.1_Line_N)
+lnL = -136.893958
+  0.13768  1.04029  0.19457
+
+t= 0.1377  S=    15.2  N=    77.8  dN/dS=  0.1946  dN = 0.0274  dS = 0.1407
+
+
+6 (RJF.Contig1.LOC39.MHCY13e) ... 3 (MW917158_8.1_Line_N)
+lnL = -137.770664
+  0.17182  4.15493  0.17544
+
+t= 0.1718  S=    18.9  N=    74.1  dN/dS=  0.1754  dN = 0.0293  dS = 0.1670
+
+
+6 (RJF.Contig1.LOC39.MHCY13e) ... 4 (AF218783.1_7.1_YFV_CDS)
+lnL = -131.781671
+  0.10092  2.63537  0.52199
+
+t= 0.1009  S=    17.7  N=    75.3  dN/dS=  0.5220  dN = 0.0286  dS = 0.0549
+
+
+6 (RJF.Contig1.LOC39.MHCY13e) ... 5 (RJF.Contig1.LOC13.MHCY1d)
+lnL = -131.781671
+  0.10092  2.63533  0.52198
+
+t= 0.1009  S=    17.7  N=    75.3  dN/dS=  0.5220  dN = 0.0286  dS = 0.0549
