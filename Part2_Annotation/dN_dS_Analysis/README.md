@@ -18,7 +18,7 @@ Using the `divide-alpha1_alpha2.pl` file described in the next section, protein 
 
 **Step 6)**: Create MHCY tree to select branches for PAML dN/dS Estimations using `intra-species_tree_plot-GitHub.R`
 
-## Part II: Chicken PAML dN/dS Estimations
+## Part II: [MHCY PAML dN/dS Estimations](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/dN_dS_Analysis/Chicken_AlphaHelix-MHCYad_like-n6)
 
 **Step 1)**: Manually select select sequences to analyze (from *Combined-alpha1alpha2-GAPPED-v2.fa*) in new file `Combined-alpha1alpha2-GAPPED-MHCYad_like.fa`
 
@@ -44,7 +44,7 @@ To help with import into R, the header was manually removed from the *2NG.dN* an
 
 **Step 6)**: Visualization for comparison with human data can be performed after completing similar steps for HLA sequences.
 
-## Part III: HLA PAML dN/dS Estimations
+## Part III: [HLA PAML dN/dS Estimations](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/dN_dS_Analysis/IMGT_HLA-AlphaHelix-n25)
 
 **Step 1)**: Download sequences with GenBank sequences selected within sources referenced at [IPD-IMGT/HLA](https://www.ebi.ac.uk/ipd/imgt/hla/)
 
