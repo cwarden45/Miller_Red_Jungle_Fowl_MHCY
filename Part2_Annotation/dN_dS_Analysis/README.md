@@ -22,6 +22,8 @@ Using the `divide-alpha1_alpha2.pl` file described in the next section, protein 
 
 **Step 1)**: Manually select select sequences to analyze (from *Combined-alpha1alpha2-GAPPED-v2.fa*) in new file `Combined-alpha1alpha2-GAPPED-MHCYad_like.fa`
 
+**For subsequent analysis, we selected the 2 main branches that were enriched for sequences with cDNAs that were also relatively evenly distributed across haplotypes.  *AF218783.1_7.1_YFV_CDS* and *MW917159_8.2_Line_N* have 100% identical amino acids in this region, so the 7 sequences in the phylogenetic tree were reduced to use 6 representative sequences mostly likely to represent different alleles (3 putative MHCY-a alleles and 3 putative MHCY-d alleles).**
+
 **Step 2)**: Extract subsets of Alpha1-Alpha2 sequence using `divide-alpha1_alpha2.pl`.
 
 **Step 3)**: Create PAML input files by using extracted nucleotide sequence and [Clustal Omega](https://www.ebi.ac.uk/Tools/msa/clustalo/) aligned protein sequence using [PAL2NAL](http://www.bork.embl.de/pal2nal/).
