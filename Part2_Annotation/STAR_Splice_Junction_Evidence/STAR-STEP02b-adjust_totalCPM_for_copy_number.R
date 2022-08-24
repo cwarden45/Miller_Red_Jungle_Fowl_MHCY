@@ -1,4 +1,4 @@
-#setwd("R:\\mmiller\\Seq\\SQNannotation_3MHCY_Contigs01Jun2017\\update_gene_names_220314")
+#setwd("R:\\mmiller\\Seq\\SQNannotation_3MHCY_Contigs01Jun2017\\update_gene_names_220824")
 
 input.file = "combined_splice_junctions-STAR-v3_totalCPM-param9.txt"
 output.file = "combined_splice_junctions-STAR-v4_totalCPM-param9-ADJUSTED.txt"
