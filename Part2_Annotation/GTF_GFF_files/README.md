@@ -1,5 +1,5 @@
 
-**Combined_updated_genes-17March2022.gtf** - coding gene annotations; example code for creation **will be provided** provided within the [Iterations_of_Manual_Annotation - Annotation_Update_Example]() subfolder.
+**Combined_updated_genes-24August2022.gtf** - coding gene annotations; example code for creation **will be provided** provided within the [Iterations_of_Manual_Annotation - Annotation_Update_Example]() subfolder.
 
 **Combined_RepeatMasker-22March2022.gff** - raw annotations from RepeatMasker, combined using `combine_GTF.sh`.
 
