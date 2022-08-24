@@ -1,4 +1,4 @@
-NCBI.EST.file = "featureCounts_GMAP_NCBI_EST_multimap_read_info.txt"
+NCBI.EST.file = "featureCounts_GMAP_NCBI_EST_220330_multimap_read_info.txt"
 Partial.MHCY.file = "featureCounts_GMAP_Partial_MHCY_multimap_read_info.txt"
 
 genes = c()
