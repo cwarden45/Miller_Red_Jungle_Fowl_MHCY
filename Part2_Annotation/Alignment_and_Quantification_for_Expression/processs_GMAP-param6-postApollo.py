@@ -8,8 +8,12 @@ import os
 #FA = "../../Code/BLAST_KnownGenes/MHCY_Partial/AY257165_AY257170-reformat.fasta"
 #alignmentFolder = "GMAP_EST-param6"
 
-sample = "NCBI_EST"
-FA = "../Code/BLAST_KnownGenes/NCBI_galGal_EST.fasta"
+#sample = "NCBI_EST"
+#FA = "../Code/BLAST_KnownGenes/NCBI_galGal_EST.fasta"
+#alignmentFolder = "GMAP_EST-param6"
+
+sample = "NCBI_EST_220330"
+FA = "../Code/BLAST_KnownGenes/NCBI_galGal_EST-220330.fasta"
 alignmentFolder = "GMAP_EST-param6"
 
 refD = "."
