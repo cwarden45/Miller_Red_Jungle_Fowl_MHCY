@@ -61,7 +61,7 @@ Previous versions used TopHat2 alignments and QoRTS for the splice junction evid
 
 **10)** Run `STEP10-combined_Figure_V9.R` to create plot to illustrate types of genes at loci across the chromosomes, which is used in the associated publication.
 
-**11)** Create Supplemental Table using `STEP11-combine_and_reformat_gene_summaries.R`.
+**11)** Create Supplemental Table using `STEP11-combine_and_reformat_gene_summaries-v2.R`.
 
 The input file (*combined_gene_summary.txt*) is created by manually combining the files from the 4 contigs (*Contig1_gene_summary.txt*,*Contig2_gene_summary.txt*,*Contig3_gene_summary.txt*,*Contig4_gene_summary.txt*)
 
