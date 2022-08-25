@@ -63,6 +63,8 @@ Previous versions used TopHat2 alignments and QoRTS for the splice junction evid
 
 **11)** Create Supplemental Table using `STEP11-combine_and_reformat_gene_summaries.R`.
 
+The input file (*combined_gene_summary.txt*) is created by manually combining the files from the 4 contigs (*Contig1_gene_summary.txt*,*Contig2_gene_summary.txt*,*Contig3_gene_summary.txt*,*Contig4_gene_summary.txt*)
+
 You must have already run the code to summarize [STAR splice junctions](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/tree/main/Part2_Annotation/STAR_Splice_Junction_Evidence) before this table can be created.
 
 Please note that this function may perform differently in different version of R.  For example, the script above works with **R v4.1.2** on Windows, but it encountered a problem when running R *v3.4.4* within Ubuntu.
