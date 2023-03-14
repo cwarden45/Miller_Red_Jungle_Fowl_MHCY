@@ -22,7 +22,7 @@ The scripts are saved in different folders for each contig.  However, the file u
 
 The raw TRF output is available [here](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part2_Annotation/Repeat_Annotations/TRF-Raw_Output.zip).
 
-The original GTF annotation files from Repeat Masker are combined and saved [here](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part2_Annotation/GTF_GFF_files/Combined_RepeatMasker-22March2022.gff).
+The original GFF annotation files from Repeat Masker are combined and saved [here](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part2_Annotation/GTF_GFF_files/Combined_RepeatMasker-22March2022.gff).
 
 **2a)** Create intermediate files in a format that potentially could be used for GenBank annotation using `create_RepeatMasker_tbl.py` and `create_TRF_tbl.py`.
 
