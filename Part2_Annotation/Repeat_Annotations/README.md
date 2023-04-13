@@ -26,7 +26,7 @@ The original GFF annotation files from Repeat Masker are combined and saved [her
 
 **2a)** Create intermediate files in a format that potentially could be used for GenBank annotation using `create_RepeatMasker_tbl-v7.py` and `create_TRF_tbl-v7.py`.
 
-**2b)** Consolidate repeat annotations and create files that can be imported into Sequin (or other program) for GenBanks submission using `find_different_annotations_v2.py` and `find_matching_annotations_v2.py`.
+**2b)** Consolidate repeat annotations and create files that can be imported into Sequin (or other program) for GenBanks submission using `find_different_annotations_v5.py` and `find_matching_annotations_v5.py`.
 
 This also allows for a way to systematically make other changes.
 
