@@ -6,7 +6,7 @@ from Bio.Seq import Seq
 
 contig = "Contig1"
 #contig = "Contig2"
-#contig = "Contig3"
+#contig = "Contig3" #manually add a return for YLEC30partial CDS annotation
 #contig = "Contig4"
 
 gtf = contig+"_updated_genes.gtf"
