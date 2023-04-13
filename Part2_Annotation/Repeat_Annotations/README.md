@@ -24,7 +24,7 @@ The raw TRF output is available [here](https://github.com/cwarden45/Miller_Red_J
 
 The original GFF annotation files from Repeat Masker are combined and saved [here](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part2_Annotation/GTF_GFF_files/Combined_RepeatMasker-22March2022.gff).
 
-**2a)** Create intermediate files in a format that potentially could be used for GenBank annotation using `create_RepeatMasker_tbl.py` and `create_TRF_tbl.py`.
+**2a)** Create intermediate files in a format that potentially could be used for GenBank annotation using `create_RepeatMasker_tbl-v7.py` and `create_TRF_tbl-v7.py`.
 
 **2b)** Consolidate repeat annotations and create files that can be imported into Sequin (or other program) for GenBanks submission using `find_different_annotations_v2.py` and `find_matching_annotations_v2.py`.
 
