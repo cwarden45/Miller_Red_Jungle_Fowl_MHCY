@@ -36,4 +36,6 @@ The scripts have a folder structure.  You have to move within the ***Repeat_Tabl
 
 The **rRNA_cluster.fasta** and **rRNA.fa** files are provided on GitHub.  The accession for the full sequence is within *rRNA_cluster.fasta*.  The specific gene query sequences come from that same accession ([KT445934](https://www.ncbi.nlm.nih.gov/nuccore/KT445934)), but that is not within the FASTA file itself.
 
+**NOTE:** After using this to create an earlier version of the annotation, these annotations were later captured with part of [STEP09-GTF_to_tbl_v16.py](https://github.com/cwarden45/Miller_Red_Jungle_Fowl_MHCY/blob/main/Part2_Annotation/Gene_Annotation_Iterations/Annotation_Update_Example/STEP09-GTF_to_tbl_v16.py).
+
 **4)** For an overall repeat summary, you can run `summarize_RepeatMasker-v2.R`.
