@@ -51,7 +51,7 @@ Runs analysis for all 4 contigs at one time.
 
 I believe these sequences were downloaded from [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore) following instructions described [here](https://www.researchgate.net/post/How_can_I_download_the_whole_EST_sequence_of_an_organism_from_NCBI_genbank).  For example, the search criteria would be "*Gallus gallus[porgn:__txid9031]*".
 
-**9)** Run `STEP09-GTF_to_tbl_v18.py` to create .tbl files that can be entered into Sequin (or preferred program) to prepare GenBank submission.
+**9)** Run `STEP09-GTF_to_tbl_v16.py` to create .tbl files that can be entered into Sequin (or preferred program) to prepare GenBank submission.
 
 Different parts of the code are commented out for each contig.
 
