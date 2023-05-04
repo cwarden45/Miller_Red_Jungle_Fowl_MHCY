@@ -15,7 +15,7 @@ This creates an intermediate file that helps describe the genes as well as check
 
 The cDNA FASTA files for the gene candidates will be used for the BLAST searches in the subsequent steps.
 
-**2)** Run `STEP02-BLAST_named_RefSeq-v4.py` to identify hits to RefSeq genes as well as newly deposited cDNA sequences and separate MHC-Y amplicon sequences ( [AY257165.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257165), [AY257166.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257166), [AY257167.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257167), [AY257168.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257168), [AY257169.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257169, and [AY257170.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257170) ).
+**2)** Run `STEP02-BLAST_named_RefSeq-v4.py` to identify hits to RefSeq genes as well as newly deposited cDNA sequences and separate MHC-Y amplicon sequences ( [AY257165.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257165), [AY257166.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257166), [AY257167.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257167), [AY257168.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257168), [AY257169.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257169), and [AY257170.1](https://www.ncbi.nlm.nih.gov/nuccore/AY257170) ).
 
 Different parts of the code are commented out for each contig.
 
