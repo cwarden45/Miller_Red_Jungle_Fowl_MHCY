@@ -16,7 +16,7 @@ The folder path includes a subfolder called *annotation_transfer2* because a num
 
 When there was a more complicated difference between assemblies, the .pileup GTF transfer strategy did not capture everything and some manual work was needed to transfer 100% of gene annotations correctly.  For example, you can see some discussion [here](https://www.biostars.org/p/472543/).  However, as far as we could tell, it was the best overall strategy to start with a semi-automated transfer of annotations.
 
-**3)** Create 5-column feature table formatted annotations using `GTF_to_tbl-clone-V5.py`.
+**3)** Create 5-column feature table formatted annotations using `GTF_to_tbl-clone-V6.py`.
 
 ## Additional Background Regarding Gene Annotation Process
 
