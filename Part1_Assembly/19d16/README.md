@@ -43,13 +43,14 @@ makeblastdb -in $EARLY_REF -dbtype nucl
 blastn -evalue 1e-20 -query TAMU_EcoRI_BAC.fa -db $EARLY_REF -out $OUT -outfmt \"6 qseqid qlen qstart qend sseqid slen sstart send length pident nident mismatch gaps evalue\"
 ```
 
-#Side Note
+### Side Note
 
 There are also some additional details on *slide #4* of [this (less formal) summary](https://github.com/marbl/canu/files/5532554/Summary.-.Round56k.pdf) from [this discussion](https://github.com/marbl/canu/issues/1841).
 
 However, that varies from what is described above for a couple reasons:
 
 **1)** That screenshot shows an unpolished re-arranged sequence.
+
 **2)** In order to report a sequence whose generation was 100% reproducible, we created an alternative 19d16.  There is only a repeat copy number variation of 5 bp in the ***polished*** version, but there were additional small differences in the unpolished version (*after correcting for a medium-to-large duplication error when attempting to define a circular sequence*).
 
 Nevertheless, those slides are helpful in terms of understanding the additional troubleshooting needed to correct large differences in the assembly for some contigs, noticable additional work was still carried out afterwards.
