@@ -12,3 +12,5 @@
 
  - Includes GFF or GTF annotation files
  - Explains details regarding the annotation process, with selected scripts.
+
+**Publication:** [Goto et al. 2022](https://academic.oup.com/g3journal/article/12/11/jkac218/6673914)
